@@ -1,0 +1,14 @@
+{
+  "name": "practice-one",
+  "version": "1.0.0",
+  "description": "* 10th January 2024\r # OVERVIEW\r * This is the document provided required for HTML CSS practice one\r * Design [Figma](https://pages.github.com/](https://www.figma.com/file/LAykK6W1sGo1plMlbTUhuA/School-Victory---html-and%C2%A0css-template%C2%A0with-source-code%C2%A0free%C2%A0download-for-school-(Community)?type=design&node-id=2638-6256&mode=design&t=poNeqC9hKRH1qH0H-0)https://www.figma.com/file/LAykK6W1sGo1plMlbTUhuA/School-Victory---html-and%C2%A0css-template%C2%A0with-source-code%C2%A0free%C2%A0download-for-school-(Community)?type=design&node-id=2638-6256&mode=design&t=poNeqC9hKRH1qH0H-0)\r # TIMELINE\r * Expected: 9 Days (2023/10/01 - 2023/22/01)\r * Total:\r # TEAM SIZE\r * 1 dev\r # TARGETS\r * Build and deploy a website by applying all the HTML/CSS knowledge from the training process\r * Slide from Sketch Design on Figma to HTML/CSS\r * Understand the concepts of CSS layout\r # TECHNICAL STACK\r * Visual Studio Code\r * HTML5\r * CSS3\r * Parcel\r * Vercel\r * Perfect Pixel\r # REQUIREMENTS\r * Use the right HTML tags\r * Apply CSS guidelines\r * Apply Flexbox\r * Deploy on Vercel\r * Use [Perfect pixel](https://chromewebstore.google.com/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en) and check performance at [Page Speed](https://pagespeed.web.dev/)\r * Use [Parcel](https://parceljs.org/languages/html/#posthtml) build tool for hot reloading + split HTML components\r * Not responsive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "thanhngan",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0"
+  }
+}
