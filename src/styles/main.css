@@ -1,1 +1,4 @@
-@import url(./styles/base/index.css);
+@import "../styles/base/index.css";
+@import "../styles/sections/all.css";
+@import "../styles/utils/variables.css";
+@import "./components/index.css";
