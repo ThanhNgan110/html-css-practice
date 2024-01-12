@@ -2,3 +2,4 @@
 @import "../styles/sections/all.css";
 @import "../styles/utils/variables.css";
 @import "./components/index.css";
+@import "./layout/index.css";
