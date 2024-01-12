@@ -1,0 +1,12 @@
+.btn {
+    border-radius: 5px;
+    background-color: var(--background-color-second);
+    border: 0px solid var(--background-color-second);
+    color: var(--text-color-light);
+    font-size:var(--font-size-vrsmall) ;
+}
+
+.btn-primary {
+  padding: 15px 25px;
+  font-weight: 700;
+}
