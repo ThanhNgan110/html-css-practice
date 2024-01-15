@@ -4,6 +4,7 @@
 	color: var(--text-color-light);
 	font-size: var(--font-size-vrsmall);
 	cursor: pointer;
+	text-decoration: none;
 }
 
 .btn-primary {
@@ -20,8 +21,8 @@
 }
 
 .btn-outline {
-    color:var(--text-color-third) ;
-    background-color: var(--text-color-light);
+	color: var(--text-color-third);
+	background-color: var(--text-color-light);
 	padding: 15px 40px;
 	font-weight: 700;
 }
