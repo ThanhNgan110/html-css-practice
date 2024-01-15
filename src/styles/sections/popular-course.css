@@ -1,0 +1,70 @@
+.content {
+	max-width: 691px;
+}
+
+.section-popular-course .title-sub {
+	font-size: var(--font-size-vrsmall);
+	color: var(--text-color-third);
+	font-weight: 700;
+	margin-top: 10px;
+}
+
+.title-heading {
+	font-size: var(--font-size-large);
+	font-weight: 700;
+	margin-bottom: 10px;
+	line-height: 50px;
+	letter-spacing: 0.2px;
+}
+
+.section-popular-course .description {
+	color: var(--text-color-primary);
+	font-size: var(--font-size-vrsmall);
+	font-weight: 400;
+	line-height: 20px;
+	margin-bottom: 112px;
+	max-width: 469px;
+}
+
+.course-card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.card-title {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: var(--text-color-second);
+	font-size: var(--font-size-small);
+	font-weight: 700;
+}
+
+.card-description {
+	position: relative;
+	line-height: 20px;
+	margin-top: 20px;
+	font-weight: 400;
+	font-size: var(--font-size-vrsmall);
+	color: var(--text-color-primary);
+	max-width: 132px;
+}
+
+.card-description::before {
+	position: absolute;
+	content: "";
+	background: var(--background-color-third);
+	width: 50px;
+	height: 2px;
+	top: -10px;
+}
+
+.card-item {
+	padding: 35px 56px;
+	background-color: var(--background-color-primary);
+	box-shadow: var(--box-shadow-primary);
+}
+.item-isolation {
+	background: var(--background-color-second);
+}
