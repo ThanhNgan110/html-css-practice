@@ -1,12 +1,27 @@
 .btn {
-    border-radius: 5px;
-    background-color: var(--background-color-second);
-    border: 0px solid var(--background-color-second);
-    color: var(--text-color-light);
-    font-size:var(--font-size-vrsmall) ;
+	border-radius: 5px;
+	border: 1px solid var(--background-color-second);
+	color: var(--text-color-light);
+	font-size: var(--font-size-vrsmall);
+	cursor: pointer;
 }
 
 .btn-primary {
-  padding: 15px 25px;
-  font-weight: 700;
+	background-color: var(--background-color-second);
+	padding: 15px 25px;
+	font-weight: 700;
+}
+
+.btn-full {
+	background-color: var(--background-color-second);
+	padding: 15px 40px;
+	font-weight: 700;
+	margin-right: 10px;
+}
+
+.btn-outline {
+    color:var(--text-color-third) ;
+    background-color: var(--text-color-light);
+	padding: 15px 40px;
+	font-weight: 700;
 }
