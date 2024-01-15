@@ -1,5 +1,6 @@
 .section-hero {
 	padding: 0 32px;
+	margin-bottom: 112px;
 }
 
 .hero {
@@ -13,14 +14,14 @@
     padding-left: 132px;
 }
 
-.title-sub {
+.hero-title-sub {
 	font-size: var(--font-size-vrsmall);
 	color: var(--text-color-third);
 	font-weight: 700;
 	margin-bottom: 30px;
 }
 
-.title-heading {
+.hero-title-heading {
 	font-size: var(--font-size-large);
 	font-weight: 700;
 	margin-bottom: 30px;
