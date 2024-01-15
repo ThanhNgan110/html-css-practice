@@ -1,15 +1,23 @@
 .container-header {
+	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 17px 150px;
+	padding: 17px 59px;
+}
+
+.logo::before {
+	content: url("../../assets/images/header/box-small-rectangle.png");
+	position: absolute;
+	top: 0;
+	left: 0;
 }
 
 .container-header .nav-menu {
 	flex-direction: row;
 	display: flex;
 	align-items: center;
-	gap: 160px;
+	gap: 240px;
 }
 
 .container-header .nav-menu .nav-list {
@@ -27,6 +35,14 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.nav-auth::before {
+	content: url('../../assets/images/header/box-rectangle.png');
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	right: 0;
 }
 
 .item-sig-in {
