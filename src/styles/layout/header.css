@@ -1,67 +1,89 @@
-.container-header {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 17px 59px;
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+.box-small {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  align-content: flex-start;
+  flex-wrap: wrap-reverse;
+  justify-content: flex-start;
+  width: 111.609px;
+  height: 176.957px;
+  background-color: var(--color-pepermint, #eff8ed);
 }
 
-.logo::before {
+.box-large {
+  width: 604.145px;
+  height: 700px;
+  background-color: var(--color-pepermint, #eff8ed);
+}
+
+.container-header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 59px;
+}
+
+/* .logo::before {
 	content: url("../../assets/images/header/box-small-rectangle.png");
 	position: absolute;
 	top: 0;
 	left: 0;
-}
+} */
 
 .container-header .nav-menu {
-	flex-direction: row;
-	display: flex;
-	align-items: center;
-	gap: 240px;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  gap: 240px;
 }
 
 .container-header .nav-menu .nav-list {
-	display: flex;
+  display: flex;
 }
 .container-header .nav-list {
-	list-style: none;
+  list-style: none;
 }
 
 .nav-item {
-	margin: 0 12px;
-	font-size: var(--font-size-vrsmall);
+  margin: 0 12px;
+  font-size: var(--font-size-vrsmall);
 }
 .nav-auth {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.nav-auth::before {
+/* .nav-auth::before {
 	content: url('../../assets/images/header/box-rectangle.png');
 	position: absolute;
 	z-index: -1;
 	top: 0;
 	right: 0;
-}
+} */
 
 .item-sig-in {
-	color: var(--text-color-third);
+  color: var(--text-color-third);
 }
 
 .nav-link {
-	font-weight: 700;
-	margin: 0 12px;
-	text-decoration: none;
+  font-weight: 700;
+  margin: 0 12px;
+  text-decoration: none;
 }
 
 .link-item {
-	color: var(--text-color-primary);
+  color: var(--text-color-primary);
 }
 
 .icon-arrow-right {
-	display: inline-block;
-	background-image: url("../../assets/images/icons/arrow-right.svg");
-	width: 12px;
-	height: 10px;
+  display: inline-block;
+  background-image: url("../../assets/images/icons/arrow-right.svg");
+  width: 12px;
+  height: 10px;
 }
