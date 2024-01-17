@@ -10,9 +10,16 @@
   "author": "thanhngan",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.11.0"
+    "parcel": "^2.11.0",
+    "posthtml-include": "^1.7.4"
   },
   "dependencies": {
-    "@vercel/node": "^3.0.16"
+    "@vercel/node": "^3.0.16",
+    "posthtml-doctype": "^1.1.1"
+  },
+  "resolutions": {
+    "@parcel/resolver-default": {
+      "packageExports": true
+    }
   }
 }

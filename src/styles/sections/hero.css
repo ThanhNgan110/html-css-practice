@@ -1,5 +1,6 @@
 .section-hero {
 	padding: 0 32px;
+	margin-bottom: 112px;
 }
 
 .hero {
@@ -13,25 +14,28 @@
     padding-left: 132px;
 }
 
-.title-sub {
-	font-size: var(--font-size-vrsmall);
-	color: var(--text-color-third);
+.hero-title-sub {
+	font-size: var(--size-very-small);
+	color: var(--color-olivine);
 	font-weight: 700;
 	margin-bottom: 30px;
 }
 
-.title-heading {
-	font-size: var(--font-size-large);
+.hero-title-heading {
+	font-size: var(--size-large);
+	color: var(--color-second);
 	font-weight: 700;
 	margin-bottom: 30px;
+	margin-top: 0;
 	line-height: 80px;
 	letter-spacing: 0.2px;
 }
 
 .hero-description {
-	font-size: var(--text-color-primary);
-	font-size: var(--font-size-medium);
+	color: var(--color-primary);
+	font-size: var(--size-medium);
 	font-weight: 400;
 	line-height: 30px;
 	margin-bottom: 30px;
+	width: 389px;
 }
