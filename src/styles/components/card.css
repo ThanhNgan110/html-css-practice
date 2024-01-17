@@ -1,0 +1,36 @@
+.card-item {
+  padding: 35px 56px;
+  background-color: var(--color-light);
+  box-shadow: var(--box-shadow-color-primary);
+}
+
+.card-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: var(--color-second);
+  font-size: var(--size-small);
+  font-weight: 700;
+}
+
+.card-description {
+  position: relative;
+  line-height: 20px;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: var(--size-very-small);
+  color: var(--color-primary);
+  max-width: 132px;
+}
+
+.card-description::before {
+  position: absolute;
+  content: "";
+  background-color: var(--color-danger);
+  width: 50px;
+  height: 2px;
+  top: -10px;
+}
+
+.item-isolation {
+  background-color: var(--color-olivine);
+}
