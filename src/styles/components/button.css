@@ -1,28 +1,28 @@
 .btn {
-	border-radius: 5px;
-	border: 1px solid var(--background-color-second);
-	color: var(--text-color-light);
-	font-size: var(--font-size-vrsmall);
-	cursor: pointer;
-	
+  border-radius: 5px;
+  color: var(--color-light);
+  font-size: var(--font-size-very-small);
+  cursor: pointer;
 }
 
 .btn-primary {
-	background-color: var(--background-color-second);
-	padding: 15px 25px;
-	font-weight: 700;
+  border: none;
+  background-color: var(--color-olivine);
+  padding: 15px 25px;
+  font-weight: 700;
 }
 
 .btn-full {
-	background-color: var(--background-color-second);
-	padding: 15px 40px;
-	font-weight: 700;
-	margin-right: 10px;
+  background-color: var(--color-olivine);
+  padding: 15px 40px;
+  font-weight: 700;
+  margin-right: 10px;
 }
 
 .btn-outline {
-	color: var(--text-color-third);
-	background-color: var(--text-color-light);
-	padding: 15px 40px;
-	font-weight: 700;
+  color: var(--color-olivine);
+  background-color: var(--color-light);
+  border: 1px solid var(--color-olivine);
+  padding: 15px 40px;
+  font-weight: 700;
 }
