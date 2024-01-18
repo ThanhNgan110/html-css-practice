@@ -1,0 +1,134 @@
+.products-course {
+  display: flex;
+  gap: 30px;
+  width: 1049px;
+}
+
+.product-cover {
+  position: relative;
+  width: 238px;
+}
+
+.product-tag {
+  padding: 0 10px;
+  border-radius: 3px;
+  background: var(--color-danger);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
+  color: var(--color-light);
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.product-actions {
+  display: flex;
+  position: absolute;
+  bottom: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  gap: 10px;
+  bottom: 10px;
+}
+
+.actions-icon {
+  display: flex;
+  justify-content: center;
+  background: var(--color-light);
+  border-radius: 44.786px;
+  border-radius: 44px;
+  padding: 5px;
+}
+
+.product-sec {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.product-category {
+  font-size: var(--size-very-small);
+  color: var(--color-olivine);
+  font-weight: 700;
+}
+
+.product-raiting {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  color: var(--color-light);
+  font-size: 12px;
+  border-radius: 20px;
+  background: #2d4059;
+  width: 50px;
+  height: 26px;
+  padding: 5px;
+}
+
+.raiting-star {
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background-image: url("/src/assets/images/icons/star.svg");
+}
+
+.raiting-text {
+  color: var(--color-light);
+  font-size: 12px;
+  font-weight: var(--size-very-small);
+  line-height: 16px;
+}
+
+.product-title {
+  font-size: var(--size-small);
+  color: var(--color-second);
+  margin-bottom: 10px;
+}
+
+.product-description {
+  margin-bottom: 10px;
+}
+
+.product-sale {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.frame-sec {
+  background-image: url("/src/assets/images/icons/frame-sec.svg");
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+}
+
+.sale-sec {
+  color: var(--color-primary);
+  font-size: var(--size-small);
+  font-weight: 700;
+}
+
+.product-price {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.price-sec {
+  color: #bdbdbd;
+  font-size: var(--size-small);
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.price-sec-line {
+  color: #ffab71;
+  font-size: var(--size-small);
+  font-weight: 700;
+}
+
+.btn-learn-full::after {
+  content: url("/src/assets/images/icons/arrow-next.svg");
+}
