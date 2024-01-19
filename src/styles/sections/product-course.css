@@ -129,6 +129,6 @@
   font-weight: 700;
 }
 
-.btn-learn-full::after {
+/* .btn-learn-full::after {
   content: url("/src/assets/images/icons/arrow-next.svg");
-}
+} */
