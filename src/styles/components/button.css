@@ -16,7 +16,7 @@
 .btn-full {
   background-color: var(--color-olivine);
   padding: 15px 40px;
-  margin-right: 10px;
+  border: none;
 }
 
 .btn-outline {
@@ -35,16 +35,20 @@
 }
 
 .btn-learn-full {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 141px;
-  height: auto;
-  gap: 5px;
+  display: inline-block;
+  box-sizing: border-box;
   color: var(--color-olivine);
   border-radius: 37px;
   padding: 10px 20px;
   background-color: var(--color-light);
   border: 1px solid var(--color-olivine);
   text-decoration: none;
+}
+
+.btn-lg {
+  width: 240px;
+  height: 52px;
+  background-color: var(--color-olivine);
+  padding: 15px 40px;
+  border: none;
 }
