@@ -1,3 +1,7 @@
+.section-price {
+  padding: 137px 0;
+}
+
 .heart {
   border-radius: 200px;
   background: var(--color-olivine);
