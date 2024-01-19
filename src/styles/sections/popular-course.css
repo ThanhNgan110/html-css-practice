@@ -1,10 +1,18 @@
 .section-popular-course {
-  margin-top: 112px;
+  margin-bottom: 80px;
 }
 
 .content {
   max-width: 691px;
   margin-bottom: 112px;
+}
+
+.card-item-course {
+  padding: 35px 40px;
+}
+
+.card-item-course-full {
+  background-color: var(--color-olivine);
 }
 
 .section-tag {
@@ -66,17 +74,4 @@
 
 .item-isolation {
   background-color: var(--color-olivine);
-}
-
-.btn-learn {
-  color: var(--color-olivine);
-  display: flex;
-  align-content: center;
-  align-items: flex-start;
-  gap: 10px;
-  margin: 0;
-}
-
-.btn-learn::after {
-  content: url("../../assets/images/icons/arrow-next.svg");
 }

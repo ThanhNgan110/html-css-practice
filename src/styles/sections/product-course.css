@@ -9,6 +9,10 @@
   width: 238px;
 }
 
+.product-detail {
+  padding: 20px 30px;
+}
+
 .product-tag {
   padding: 0 10px;
   border-radius: 3px;
@@ -43,7 +47,7 @@
   display: flex;
   align-items: center;
   flex-direction: row;
-  gap: 10px;
+  gap: 5px;
   margin-bottom: 10px;
 }
 
@@ -87,7 +91,10 @@
 }
 
 .product-description {
+  font-size: var(--size-very-small);
   margin-bottom: 10px;
+  font-weight: 400;
+  line-height: 20px;
 }
 
 .product-sale {
@@ -110,9 +117,6 @@
 }
 
 .product-price {
-  display: flex;
-  align-items: center;
-  gap: 5px;
   margin-bottom: 10px;
 }
 
@@ -127,8 +131,4 @@
   color: #ffab71;
   font-size: var(--size-small);
   font-weight: 700;
-}
-
-.btn-learn-full::after {
-  content: url("/src/assets/images/icons/arrow-next.svg");
 }
