@@ -1,19 +1,14 @@
-.cards {
+.card {
+  list-style: none;
   display: flex;
   flex-direction: row;
   gap: 30px;
-  justify-content: space-around;
   align-items: center;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex: 0 1 20%;
+  justify-content: space-between;
 }
 
 .card-item {
-  box-shadow: var(--box-shadow-color-primary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-

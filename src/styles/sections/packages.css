@@ -1,3 +1,23 @@
+.section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.heading-sub {
+  position: relative;
+}
+
+.heading-sub::before {
+  content: "";
+  position: absolute;
+  width: 94px;
+  height: 7px;
+  background: var(--color-danger);
+  top: -35px;
+  left: 0;
+}
+
 .packages-video {
   position: relative;
 }
@@ -10,7 +30,6 @@
   background-repeat: no-repeat;
   border: none;
   background-color: transparent;
-  cursor: pointer;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);

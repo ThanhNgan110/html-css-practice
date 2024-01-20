@@ -6,8 +6,24 @@
   margin-bottom: 160px;
 }
 
-.quality-content {
-  width: 381px;
+.heading-sub {
+  position: relative;
+}
+
+.heading-sub::before {
+  content: "";
+  position: absolute;
+  width: 94px;
+  height: 7px;
+  background: var(--color-danger);
+  top: -35px;
+  left: 0;
+}
+
+.section-content {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
 }
 
 .nav-learn {

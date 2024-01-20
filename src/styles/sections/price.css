@@ -1,5 +1,6 @@
 .section-price {
-  padding: 137px 0;
+  margin-top: 160px;
+  margin-bottom: 160px;
 }
 
 .heart {
@@ -14,8 +15,10 @@
 }
 
 .card-item-price {
+  flex: 0 1 20%;
   padding: 50px 40px;
   gap: 35px;
+  box-shadow: var(--box-shadow-color-primary);
 }
 
 .card-item-price-full {

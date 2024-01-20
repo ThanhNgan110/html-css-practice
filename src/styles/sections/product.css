@@ -1,7 +1,16 @@
-.products-course {
+.section-product-course {
+  margin-top: 112px;
+  margin-bottom: 112px;
+}
+.content {
   display: flex;
-  gap: 30px;
-  width: 1049px;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 112px;
+  
+}
+.card-item-product {
+  flex:  0 1 20%;
 }
 
 .product-cover {

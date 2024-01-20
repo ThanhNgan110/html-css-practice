@@ -1,0 +1,9 @@
+.img-default {
+  width: 100%;
+  height: auto;
+}
+
+.img-border {
+  border-radius: 50%;
+  object-fit: cover;
+}
