@@ -1,5 +1,5 @@
 .section-popular-course {
-  margin-bottom: 80px;
+  margin-bottom: 112px;
 }
 
 .content {
@@ -8,41 +8,12 @@
 }
 
 .card-item-course {
+  box-shadow: var(--box-shadow-color-primary);
   padding: 35px 40px;
 }
 
 .card-item-course-full {
   background-color: var(--color-olivine);
-}
-
-.section-tag {
-  font-size: var(--size-very-small);
-  color: var(--color-olivine);
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-.title-heading {
-  color: var(--color-second);
-  font-size: var(--size-large);
-  font-weight: 700;
-  margin-bottom: 10px;
-  line-height: 50px;
-  letter-spacing: 0.2px;
-}
-
-.section-popular-course .description {
-  color: var(--color-primary);
-  font-size: var(--size-very-small);
-  font-weight: 400;
-  line-height: 20px;
-  max-width: 469px;
-}
-
-.course-card {
-  display: flex;
-  align-items: center;
-  gap: 30px;
 }
 
 .card-title {

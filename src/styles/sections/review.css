@@ -1,0 +1,41 @@
+.section-review {
+  margin-top: 160px;
+  margin-bottom: 160px;
+}
+
+.card-item-review {
+  flex: 0 1 45%;
+}
+
+.card-content {
+  padding: 30px 30px;
+}
+
+.review-description {
+  font-size: var(--size-very-small);
+  color: var(--color-primary);
+  line-height: 20px;
+  font-weight: 400;
+  width: 320px;
+  margin-bottom: 15px;
+}
+
+.review-star {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.infor-username {
+  margin-bottom: 5px;
+  font-size: var(--size-small);
+  color: var(--color-second);
+  font-weight: 700;
+}
+
+.infor-position {
+  font-size: var(--size-very-small);
+  color: var(--color-primary);
+  font-weight: 700;
+}
