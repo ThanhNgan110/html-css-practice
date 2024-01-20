@@ -1,5 +1,6 @@
-@import "./popular-course.css";
-@import "./quality-course.css";
-@import "./packages-course.css";
-@import "./product-course.css";
-@import "./price-course.css";
+@import "./popular.css";
+@import "./quality.css";
+@import "./packages.css";
+@import "./product.css";
+@import "./price.css";
+@import "./review.css";
