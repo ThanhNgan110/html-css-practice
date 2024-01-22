@@ -12,12 +12,18 @@
   right: 0;
 }
 
+.header-top {
+  display: flex;
+  align-items: center;
+  padding-top: 17px;
+  justify-content: center;
+}
+
 .navbar {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   align-items: center;
-  padding-top: 17px;
+  gap: 240px;
 }
 
 .navbar .nav-list {
@@ -51,19 +57,17 @@
   align-items: center;
 }
 
-.item-sig-in {
-  color: var(--color-olivine);
-  border: none;
-  background: none;
-}
-
 .nav-link {
-  font-weight: 700;
+  font-weight: var(--font-weight-bold);
   text-decoration: none;
 }
 
 .link-item {
   color: var(--color-primary);
+}
+
+.link-item:hover {
+  border-bottom: var(--border-color-primary);
 }
 
 .icon-arrow-right {

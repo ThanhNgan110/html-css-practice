@@ -81,7 +81,7 @@
 }
 
 .plan-price .price {
-  color: var(--color-second);
+  color: var(--color-olivine);
   font-size: var(--size-big);
   font-weight: 700;
   line-height: 50px;
