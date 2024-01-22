@@ -1,0 +1,35 @@
+.section-cta {
+  background-color: #fff2f3;
+  padding-top: 160px;
+  padding-bottom: 160px;
+}
+
+.cta-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 80px;
+}
+
+.cta-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta-input {
+  width: 688px;
+  height: 58px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: 1px solid #e6e6e6;
+  font-size: 14px;
+}
+
+.cta-email-input {
+  width: 688px;
+  height: 58px;
+  position: relative;
+}
