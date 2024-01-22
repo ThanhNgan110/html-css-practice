@@ -1,3 +1,10 @@
+.section-packages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 160px 195px;
+}
+
 .section-content {
   display: flex;
   flex-direction: column;
