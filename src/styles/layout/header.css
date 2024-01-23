@@ -20,15 +20,19 @@
 }
 
 .navbar {
-  display: flex;
-  flex-direction: row;
   align-items: center;
-  gap: 240px;
+  gap: 18px;
+  padding-top: 25px;
+  display: flex;
+}
+
+.navbar .logo {
+  margin-left: 196px;
+  margin-right: 23px;
 }
 
 .navbar .nav-list {
   display: flex;
-  align-items: center;
 }
 
 .container-header {
@@ -39,22 +43,22 @@
   padding: 17px 59px;
 }
 
-.container-header .nav-menu {
-  flex-direction: row;
-  display: flex;
-  align-items: center;
-  gap: 240px;
-}
-
 .nav-item {
   margin: 0 12px;
   font-size: var(--size-very-small);
 }
 
 .nav-auth {
-  display: flex;
-  justify-content: center;
   align-items: center;
+  display: flex;
+  margin-left: 195px;
+  gap: 43px;
+}
+
+.box-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .nav-link {
@@ -79,30 +83,40 @@
 
 .hero {
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 210px;
+  gap: 76px;
 }
 
 .hero-text-box {
-  padding-left: 132px;
+  flex-direction: column;
+  gap: 31px;
+  max-width: 533px;
+  margin-top: 23px;
+  margin-left: 132px;
+  display: flex;
+}
+
+.btn-box {
+  display: flex;
+  gap: 10px;
+}
+
+.hero-img-box {
+  margin-top: 37px;
 }
 
 .hero-title-sub {
   font-size: var(--size-very-small);
   color: var(--color-olivine);
   font-weight: 700;
-  margin-bottom: 30px;
 }
 
 .hero-title-heading {
   font-size: var(--size-large);
   color: var(--color-second);
-  font-weight: 700;
-  margin-bottom: 30px;
-  margin-top: 0;
-  line-height: 80px;
   letter-spacing: 0.2px;
+  font-weight: 700;
+  line-height: 80px;
 }
 
 .hero-description {
@@ -110,6 +124,5 @@
   font-size: var(--size-medium);
   font-weight: 400;
   line-height: 30px;
-  margin-bottom: 30px;
   width: 389px;
 }
