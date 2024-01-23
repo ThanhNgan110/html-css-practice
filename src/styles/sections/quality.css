@@ -1,12 +1,14 @@
 .section-quality {
+  margin: 294px 195px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 160px 195px;
+  gap: 150px;
 }
 
 .heading-sub {
   position: relative;
+  margin-top: 35px;
+  line-height: 50px;
 }
 
 .heading-sub::before {
@@ -15,7 +17,7 @@
   width: 94px;
   height: 7px;
   background: var(--color-danger);
-  top: -35px;
+  top: -41px;
   left: 0;
 }
 
@@ -23,17 +25,18 @@
   display: flex;
   flex-direction: column;
   gap: 35px;
+  max-width: 351px;
 }
 
 .nav-learn {
   color: var(--color-olivine);
   display: flex;
-  align-content: center;
-  align-items: flex-start;
   gap: 10px;
-  margin: 0;
 }
 
-.nav-learn::after {
-  content: url("../../assets/images/icons/arrow-next.svg");
+.icon-arrow {
+  width: 9px;
+  height: 16px;
+  background-image: url('/src/assets/images/icons/arrow-next.svg');
 }
+
