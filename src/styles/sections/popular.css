@@ -1,13 +1,20 @@
 .section-popular-course {
-  padding: 112px 195px;
+  margin-left: 195px;
+  margin-right: 195px;
 }
 
-.content {
-  max-width: 691px;
+.content-course {
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 116px;
   margin-bottom: 112px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .card-item-course {
+  align-items: flex-start;
+  gap: 5px;
   box-shadow: var(--box-shadow-color-primary);
   padding: 35px 40px;
 }
@@ -21,14 +28,14 @@
   margin-bottom: 20px;
   color: var(--color-second);
   font-size: var(--size-small);
-  font-weight: 700;
+  font-weight: var(--font-weight-bold);
 }
 
 .card-description {
   position: relative;
   line-height: 20px;
   margin-top: 20px;
-  font-weight: 400;
+  font-weight: var(--font-weight-normal);
   font-size: var(--size-very-small);
   color: var(--color-primary);
   max-width: 132px;
@@ -40,7 +47,7 @@
   background-color: var(--color-danger);
   width: 50px;
   height: 2px;
-  top: -10px;
+  top: -21px;
 }
 
 .item-isolation {
