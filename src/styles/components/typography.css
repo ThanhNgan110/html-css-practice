@@ -16,6 +16,7 @@
   font-size: var(--size-very-small);
   font-weight: var(--font-weight-normal);
   font-style: var(--font-style-default);
+  line-height: 20px;
 }
 
 .text-center {
