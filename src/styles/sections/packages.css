@@ -11,11 +11,11 @@
   gap: 35px;
 }
 
-.heading-sub {
+/* .heading-sub {
   position: relative;
-}
+} */
 
-.heading-sub::before {
+/* .heading-sub::before {
   content: "";
   position: absolute;
   width: 94px;
@@ -23,7 +23,7 @@
   background: var(--color-danger);
   top: -35px;
   left: 0;
-}
+} */
 
 .packages-video {
   position: relative;
