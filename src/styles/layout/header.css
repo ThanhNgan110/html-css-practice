@@ -76,6 +76,7 @@
 
 .btn-primary-line {
   display: flex;
+  align-items: center;
   gap: 9px;
 }
 .hero {

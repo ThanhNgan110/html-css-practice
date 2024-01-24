@@ -1,14 +1,20 @@
 .section-product-course {
   margin-left: 195px;
   margin-right: 195px;
+  margin-bottom: 80px;
 }
+
+.product-wrapper {
+  margin-bottom: 112px;
+  margin-top: 112px;
+}
+
 .content-product {
   flex-direction: column;
   gap: 17px;
   margin-top: 0;
   display: flex;
-  margin-bottom: 114px;
-  margin-top: 112px;
+  margin-bottom: 112px;
 }
 
 .product-cover {
