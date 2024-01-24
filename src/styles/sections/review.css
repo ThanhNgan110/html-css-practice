@@ -1,9 +1,21 @@
-.section-review {
-  padding: 160px 195px;
+.content-review {
+  padding-top: 160px;
+  padding-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.card-review {
+  padding-bottom: 110px;
 }
 
 .card-item-review {
-  flex: 0 1 45%;
+  display: flex;
+  padding: 40px 63px 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
 }
 
 .card-content {

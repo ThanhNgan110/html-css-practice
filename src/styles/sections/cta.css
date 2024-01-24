@@ -5,11 +5,11 @@
 }
 
 .cta-text {
-  display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
+  gap: 20px;
   margin-bottom: 80px;
+  display: flex;
 }
 
 .cta-form {

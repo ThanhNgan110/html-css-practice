@@ -44,15 +44,15 @@
 }
 
 .nav-item {
-  margin: 0 12px;
   font-size: var(--size-very-small);
+  margin: 0 11px;
 }
 
 .nav-auth {
   align-items: center;
-  display: flex;
-  margin-left: 195px;
   gap: 43px;
+  margin-left: 202px;
+  display: flex;
 }
 
 .box-btn {

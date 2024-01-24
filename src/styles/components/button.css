@@ -7,6 +7,10 @@
   font-weight: var(--font-weight-bold);
 }
 
+.btn:link {
+  text-decoration: none;
+}
+
 .btn-sig-in {
   color: var(--color-olivine);
   background: none;
@@ -15,11 +19,12 @@
 
 .btn-sig-in:hover {
   color: var(--color-second);
+  transition: 0.6s;
 }
 
 .btn-primary {
-  border: none;
   background-color: var(--color-olivine);
+  border: none;
   padding: 14px 30px;
 }
 
@@ -30,13 +35,13 @@
 .btn-full {
   background-color: var(--color-olivine);
   padding: 15px 40px;
-  border: none;
+  border: 1px solid var(--color-olivine);
 }
 
 .btn-full:hover {
   color: var(--color-olivine);
   background-color: var(--color-light);
-  border: 1px solid var(--color-olivine);
+  transition: 0.5s;
 }
 
 .btn-outline {
@@ -48,12 +53,23 @@
 
 .btn-outline:hover {
   color: var(--color-light);
-  border: none;
   background-color: var(--color-olivine);
   padding: 15px 40px;
+  transition: 0.4s;
 }
 
 .btn-line {
+  color: var(--color-olivine);
+  border-radius: 37px;
+  padding: 10px 20px;
+  background-color: var(--color-light);
+  border: 1px solid var(--color-olivine);
+}
+
+.btn-learn-full {
+  width: 141px;
+  height: 44px;
+  box-sizing: border-box;
   color: var(--color-olivine);
   border-radius: 37px;
   padding: 10px 20px;
