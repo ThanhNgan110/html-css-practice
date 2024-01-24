@@ -41,7 +41,6 @@
 .btn-full:hover {
   color: var(--color-olivine);
   background-color: var(--color-light);
-  border: 1px solid var(--color-olivine);
   transition: 0.5s;
 }
 
