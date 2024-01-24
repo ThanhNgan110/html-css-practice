@@ -2,3 +2,8 @@
   max-width: 1440px;
   margin: 0 auto;
 }
+
+.section {
+  padding-left: 195px;
+  padding-right: 195px;
+}
