@@ -1,9 +1,9 @@
 .section-packages { 
-  display: flex;
   justify-content: space-between;
-  align-items: center;
-  gap: 73px;
-  margin: 294px 195px;
+    align-items: center;
+    gap: 73px;
+    margin: 269px 195px;
+    display: flex;
 }
 
 .content-packages {
@@ -53,15 +53,19 @@
   border-radius: 25px;
 }
 
+.packages-video .packages-image {
+  margin-top: 13px;
+}
+
 .btn-video {
-  position: absolute;
-  background-image: url("/src/assets/images/icons/btn-circle.svg");
-  width: 100px;
-  height: 100px;
+  background-color: #0000;
+  background-image: url('/src/assets/images/icons/btn-circle.svg');
   background-repeat: no-repeat;
   border: none;
-  background-color: transparent;
-  top: 50%;
-  left: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 53%;
+  left: 51%;
   transform: translate(-50%, -50%);
 }
