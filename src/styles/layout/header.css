@@ -74,13 +74,10 @@
   border-bottom: var(--border-color-primary);
 }
 
-.icon-arrow-right {
-  display: inline-block;
-  background-image: url("../../assets/images/icons/arrow-right.svg");
-  width: 12px;
-  height: 10px;
+.btn-primary-line {
+  display: flex;
+  gap: 9px;
 }
-
 .hero {
   display: flex;
   align-items: center;

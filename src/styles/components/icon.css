@@ -1,0 +1,17 @@
+.icon {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-arrow {
+  width: 9px;
+  height: 16px;
+  background-image: url("/src/assets/images/icons/arrow-next.svg");
+}
+
+.icon-arrow-right {
+    width: 12px;
+    height: 10px;
+    background-image: url("/src/assets/images/icons/arrow-right.svg");
+}

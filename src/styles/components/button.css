@@ -62,6 +62,8 @@
 }
 
 .btn-learn-full {
+  width: 141px;
+  height: 44px;
   box-sizing: border-box;
   color: var(--color-olivine);
   border-radius: 37px;
