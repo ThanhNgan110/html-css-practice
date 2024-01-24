@@ -83,7 +83,7 @@
   text-align: center;
   font-weight: var(--font-weight-bold);
   line-height: 24px;
-  width: 142px;
+  max-width: 142px;
 }
 
 .plan-price {
