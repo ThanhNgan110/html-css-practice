@@ -63,9 +63,8 @@
 .product-actions a:hover {
   background-color: var(--color-olivine);
   border-color: #7fad39;
-  transition: all .5s;
+  transition: all 0.5s;
 }
-
 
 .product-sec {
   flex-direction: row;
@@ -121,6 +120,12 @@
 .product-sale {
   display: flex;
   gap: 10px;
+}
+
+.product-price {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .frame-sec {
