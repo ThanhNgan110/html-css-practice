@@ -1,7 +1,5 @@
 .section-product-course {
-  margin-left: 195px;
-  margin-right: 195px;
-  margin-bottom: 80px;
+  margin-bottom: 88px;
 }
 
 .product-wrapper {
@@ -12,9 +10,13 @@
 .content-product {
   flex-direction: column;
   gap: 17px;
-  margin-top: 0;
   display: flex;
-  margin-bottom: 112px;
+  padding-top: 100px;
+  padding-bottom: 110px;
+}
+
+.card-product {
+  padding-bottom: 112px;
 }
 
 .product-cover {
@@ -44,7 +46,7 @@
   gap: 19px;
   display: flex;
   position: absolute;
-  bottom: 34px;
+  bottom: 10%;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -58,6 +60,13 @@
   padding: 5px;
 }
 
+.product-actions a:hover {
+  background-color: var(--color-olivine);
+  border-color: #7fad39;
+  transition: all .5s;
+}
+
+
 .product-sec {
   flex-direction: row;
   align-items: center;
@@ -68,7 +77,7 @@
 .product-category {
   font-size: var(--size-very-small);
   color: var(--color-olivine);
-  font-weight: var(  --font-weight-bold);
+  font-weight: var(--font-weight-bold);
 }
 
 .product-raiting {
@@ -124,20 +133,20 @@
 .sale-sec {
   color: var(--color-primary);
   font-size: var(--size-small);
-  font-weight: var(  --font-weight-bold);
+  font-weight: var(--font-weight-bold);
 }
 
 .price-sec {
   color: #bdbdbd;
   font-size: var(--size-small);
-  font-weight: var(  --font-weight-bold);
+  font-weight: var(--font-weight-bold);
   line-height: 24px;
 }
 
 .price-sec-line {
   color: #ffab71;
   font-size: var(--size-small);
-  font-weight: var(  --font-weight-bold);
+  font-weight: var(--font-weight-bold);
 }
 
 .product-detail .btn-learn-full {
