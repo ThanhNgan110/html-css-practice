@@ -1,21 +1,22 @@
 .section-popular-course {
-  margin-left: 195px;
-  margin-right: 195px;
+  margin-bottom: 14px;
 }
 
 .content-course {
-  flex-direction: column;
+  flex-flow: column wrap;
   gap: 18px;
-  margin-top: 116px;
-  margin-bottom: 112px;
+  padding-top: 112px;
+  padding-bottom: 112px;
   display: flex;
-  flex-wrap: wrap;
+}
+
+.card-popular {
+  padding-bottom: 122px;
 }
 
 .card-item-course {
-  align-items: flex-start;
-  gap: 5px;
   box-shadow: var(--box-shadow-color-primary);
+  align-items: flex-start;
   padding: 35px 40px;
 }
 
@@ -24,32 +25,60 @@
 }
 
 .card-title {
-  margin-top: 20px;
-  margin-bottom: 20px;
   color: var(--color-second);
   font-size: var(--size-small);
   font-weight: var(--font-weight-bold);
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 
 .card-description {
-  position: relative;
   line-height: 20px;
-  margin-top: 20px;
   font-weight: var(--font-weight-normal);
   font-size: var(--size-very-small);
   color: var(--color-primary);
   max-width: 132px;
+  margin-top: 24px;
+  position: relative;
 }
 
 .card-description::before {
-  position: absolute;
   content: "";
   background-color: var(--color-danger);
   width: 50px;
   height: 2px;
-  top: -21px;
+  position: absolute;
+  top: -23px;
 }
 
 .item-isolation {
   background-color: var(--color-olivine);
+}
+
+.card-item-course-full .card-title {
+  color: var(--color-light);
+  font-size: var(--size-small);
+  font-weight: var(--font-weight-bold);
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.card-item-course-full .card-description {
+  line-height: 20px;
+  font-weight: var(--font-weight-normal);
+  font-size: var(--size-very-small);
+  color: var(--color-light);
+  max-width: 132px;
+  margin-top: 24px;
+  position: relative;
+  max-width: 139px;
+}
+
+.card-item-course-full .card-description::before {
+  content: "";
+  background-color: var(--color-light);
+  width: 50px;
+  height: 2px;
+  position: absolute;
+  top: -23px;
 }
