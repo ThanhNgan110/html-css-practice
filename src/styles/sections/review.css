@@ -26,7 +26,7 @@
   font-size: var(--size-very-small);
   color: var(--color-primary);
   line-height: 20px;
-  font-weight: 400;
+  font-weight: var(--font-weight-normal);
   width: 320px;
   margin-bottom: 15px;
 }
@@ -42,11 +42,11 @@
   margin-bottom: 5px;
   font-size: var(--size-small);
   color: var(--color-second);
-  font-weight: 700;
+  font-weight: var(--font-weight-bold);
 }
 
 .infor-position {
   font-size: var(--size-very-small);
   color: var(--color-primary);
-  font-weight: 700;
+  font-weight: var(--font-weight-bold);
 }
