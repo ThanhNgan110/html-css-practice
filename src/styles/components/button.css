@@ -11,6 +11,11 @@
   text-decoration: none;
 }
 
+/* .btn:hover {
+  background-color: #a4cc75;
+  color: var(--color-light);
+} */
+
 .btn-sig-in {
   color: var(--color-olivine);
   background: none;
