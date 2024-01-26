@@ -25,6 +25,7 @@
 }
 
 .product-detail {
+  width: 232px;
   padding: 25px 25px 35px;
   display: flex;
   flex-direction: column;
@@ -159,4 +160,9 @@
   display: flex;
   align-items: center;
   gap: 10px;
+}
+
+.product-img {
+  width: 238px;
+  height: 300px;
 }

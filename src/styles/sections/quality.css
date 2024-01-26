@@ -34,3 +34,20 @@
   display: flex;
   gap: 10px;
 }
+
+.text-learn {
+  color: var(--color-olivine);
+}
+
+.nav-learn:hover .text-learn {
+  color: var(--color-danger);
+}
+
+.nav-learn:hover .icon-arrow {
+  fill: var(--color-danger);
+}
+
+.quality-img {
+  width: 517px;
+  height: 403px;
+}
