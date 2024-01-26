@@ -20,8 +20,26 @@
   padding: 35px 40px;
 }
 
-.card-item-course-full {
+.card-item-course:hover {
   background-color: var(--color-olivine);
+  color: var(--color-light);
+}
+
+.card-item-course:hover .card-title {
+  color: var(--color-light);
+}
+
+.card-item-course:hover .card-description {
+  color: var(--color-light);
+}
+
+.card-item-course:hover .card-description::before {
+  content: "";
+  background-color: var(--color-light);
+  width: 50px;
+  height: 2px;
+  position: absolute;
+  top: -23px;
 }
 
 .card-title {
@@ -55,30 +73,3 @@
   background-color: var(--color-olivine);
 }
 
-.card-item-course-full .card-title {
-  color: var(--color-light);
-  font-size: var(--size-small);
-  font-weight: var(--font-weight-bold);
-  margin-top: 24px;
-  margin-bottom: 24px;
-}
-
-.card-item-course-full .card-description {
-  line-height: 20px;
-  font-weight: var(--font-weight-normal);
-  font-size: var(--size-very-small);
-  color: var(--color-light);
-  max-width: 132px;
-  margin-top: 24px;
-  position: relative;
-  max-width: 139px;
-}
-
-.card-item-course-full .card-description::before {
-  content: "";
-  background-color: var(--color-light);
-  width: 50px;
-  height: 2px;
-  position: absolute;
-  top: -23px;
-}
