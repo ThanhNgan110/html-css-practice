@@ -80,7 +80,7 @@
 .btn-learn-full:hover {
   color: var(--color-olivine);
   border: none;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .btn-lg {
@@ -104,7 +104,7 @@
   height: 58px;
   padding: 15px 22px;
   position: absolute;
-  right: 29.3%;
+  right: 27%;
 }
 
 .btn-form:hover {
