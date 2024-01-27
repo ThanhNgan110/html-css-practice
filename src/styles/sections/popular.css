@@ -23,6 +23,7 @@
 .card-item-course:hover {
   background-color: var(--color-olivine);
   color: var(--color-light);
+  transition: .6s;
 }
 
 .card-item-course:hover .card-title {
