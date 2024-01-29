@@ -32,7 +32,7 @@
 }
 
 .footer-link:hover {
-  color: #45b545;
+  color: var(--color-apple);
 }
 
 .nav-footer {
