@@ -1,0 +1,35 @@
+.icon {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-arrow {
+  fill: var(--color-olivine);
+  width: 9px;
+  height: 16px;
+}
+
+.icon-arrow-right {
+    width: 12px;
+    height: 10px;
+    background-image: url("/src/assets/images/icons/arrow-right.svg");
+}
+
+.icon-phone {
+  width: 24px;
+  height: 24px;
+  background-image: url("/src/assets/images/icons/phone.svg");
+}
+
+.icon-map {
+  width: 24px;
+  height: 30px;
+  background-image: url("/src/assets/images/icons/map.svg");
+}
+
+.icon-mail {
+  width: 24px;
+  height: 36px;
+  background-image: url("/src/assets/images/icons/mail.svg");
+}

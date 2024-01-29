@@ -1,0 +1,152 @@
+.section-price {
+  margin-bottom: 170px;
+  padding-bottom: 160px;
+}
+
+.content-price {
+  padding-top: 160px;
+  padding-bottom: 105px;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.heart {
+  border-radius: 200px;
+  background: var(--color-olivine);
+  width: 96px;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-item-price {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: var(--box-shadow-color-primary);
+  gap: 35px;
+  padding: 50px 40px;
+}
+
+.card-item-price-full {
+  position: relative;
+  background: #2d4059;
+}
+
+.card-item-price-full .box-circle {
+  color: var(--color-light);
+  background-color: var(--color-burnt-sienna);
+  border-radius: 52px;
+  padding: 29px 16px;
+  font-size: 24px;
+  font-weight: var(--font-weight-bold);
+  line-height: 32px;
+  position: absolute;
+  top: -5%;
+  right: -6%;
+}
+
+.card-item-price-full .plan-title {
+  color: var(--color-light);
+}
+
+.card-item-price-full .price-sec {
+  color: var(--color-light);
+}
+
+.card-item-price-full .price-description {
+  color: var(--color-light);
+}
+
+.card-item-price-full .item-text {
+  color: var(--color-light);
+}
+
+.img-heart {
+  width: 48px;
+  height: 48px;
+}
+
+.plan-title {
+  color: var(--color-second);
+  font-size: 24px;
+  font-weight: var(--font-weight-bold);
+  line-height: 32px;
+}
+
+.price-sec {
+  color: var(--color-primary);
+  font-size: var(--size-very-small);
+  text-align: center;
+  font-weight: var(--font-weight-bold);
+  line-height: 24px;
+  max-width: 142px;
+}
+
+.plan-price {
+  display: flex;
+  flex-direction: column;
+}
+
+.plan-price .price {
+  color: var(--color-olivine);
+  font-size: var(--size-big);
+  font-weight: var(--font-weight-bold);
+  line-height: 50px;
+}
+
+.plan-price .per {
+  color: #8ec2f2;
+  font-weight: var(--font-weight-bold);
+  font-size: var(--size-very-small);
+  line-height: 24px;
+}
+
+.price-description {
+  color: var(--color-primary);
+  font-size: var(--size-very-small);
+  font-weight: 400;
+  line-height: 20px;
+  max-width: 204px;
+}
+
+.item-circle {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 8px;
+  border-radius: 200px;
+}
+
+.check {
+  background: var(--color-success)
+}
+
+.none-check {
+  background-color: var(--color-muted);
+}
+
+.item-text {
+  font-size: var(--size-very-small);
+  color: var(--color-second);
+  font-weight: var(--font-weight-bold);
+  line-height: 24px;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.list-item {
+  gap: 12px;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,76 @@
+.section-popular-course {
+  margin-bottom: 14px;
+}
+
+.content-course {
+  flex-flow: column wrap;
+  gap: 18px;
+  padding-top: 112px;
+  padding-bottom: 112px;
+  display: flex;
+}
+
+.card-popular {
+  padding-bottom: 122px;
+}
+
+.card-item-course {
+  box-shadow: var(--box-shadow-color-primary);
+  align-items: flex-start;
+  padding: 35px 40px;
+}
+
+.card-item-course:hover {
+  background-color: var(--color-olivine);
+  color: var(--color-light);
+  transition: .6s;
+}
+
+.card-item-course:hover .card-title {
+  color: var(--color-light);
+}
+
+.card-item-course:hover .card-description {
+  color: var(--color-light);
+}
+
+.card-item-course:hover .card-description::before {
+  content: "";
+  background-color: var(--color-light);
+  width: 50px;
+  height: 2px;
+  position: absolute;
+  top: -23px;
+}
+
+.card-title {
+  color: var(--color-second);
+  font-size: var(--size-small);
+  font-weight: var(--font-weight-bold);
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.card-description {
+  line-height: 20px;
+  font-weight: var(--font-weight-normal);
+  font-size: var(--size-very-small);
+  color: var(--color-primary);
+  max-width: 132px;
+  margin-top: 24px;
+  position: relative;
+}
+
+.card-description::before {
+  content: "";
+  background-color: var(--color-danger);
+  width: 50px;
+  height: 2px;
+  position: absolute;
+  top: -23px;
+}
+
+.item-isolation {
+  background-color: var(--color-olivine);
+}
+

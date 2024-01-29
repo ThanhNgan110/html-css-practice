@@ -1,0 +1,24 @@
+.section-heading {
+  color: var(--color-second);
+  font-size: var(--size-big);
+  letter-spacing: 0.2px;
+  font-weight: var(--font-weight-bold);
+}
+
+.section-tag {
+  font-size: var(--size-very-small);
+  color: var(--color-olivine);
+  font-weight: var(--font-weight-bold)
+}
+
+.text-primary {
+  color: var(--color-primary);
+  font-size: var(--size-very-small);
+  font-weight: var(--font-weight-normal);
+  font-style: var(--font-style-default);
+  line-height: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
