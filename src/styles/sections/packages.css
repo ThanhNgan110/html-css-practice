@@ -47,7 +47,7 @@
 }
 
 .btn-video {
-  background-color: #0000;
+  background-color: var(--color-transparent);
   background-image: url("/src/assets/images/icons/btn-circle.svg");
   background-repeat: no-repeat;
   border: none;
