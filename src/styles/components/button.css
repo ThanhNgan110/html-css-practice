@@ -78,7 +78,8 @@
 }
 
 .btn-learn-full:hover {
-  color: var(--color-olivine);
+  color: var(--color-light);
+  background-color: var(--color-olivine);
   border: none;
   transition: 0.5s;
 }
