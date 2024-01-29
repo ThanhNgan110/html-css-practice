@@ -62,7 +62,6 @@
 
 .product-actions a:hover {
   background-color: var(--color-olivine);
-  border-color: #7fad39;
   transition: all 0.5s;
 }
 
@@ -143,7 +142,7 @@
 }
 
 .price-sec {
-  color: #bdbdbd;
+  color: var(--color-muted);
   font-size: var(--size-small);
   font-weight: var(--font-weight-bold);
   line-height: 24px;
