@@ -1,4 +1,5 @@
 .form-input {
+  font-family: 'Montserrat';
   outline: none;
   background: var(--color-alabaster);
 }
