@@ -1,5 +1,5 @@
 .section-cta {
-  background-color: #fff2f3;
+  background-color: var(--color-secondary-faded);
   padding-top: 160px;
   padding-bottom: 160px;
 }
@@ -20,16 +20,13 @@
 }
 
 .cta-input {
-  width: 688px;
-  height: 58px;
-  padding: 15px 20px;
+  border: 1px solid var(--color-mercury);
   border-radius: 5px;
-  border: 1px solid #e6e6e6;
+  width: 100%;
+  padding: 20px 20px;
   font-size: 14px;
 }
 
 .cta-email-input {
-  width: 688px;
-  height: 58px;
-  position: relative;
+  width: 571px;
 }

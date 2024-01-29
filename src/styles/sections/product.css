@@ -25,7 +25,6 @@
 }
 
 .product-detail {
-  /* width: 232px; */
   padding: 25px 25px 35px;
   display: flex;
   flex-direction: column;
@@ -63,7 +62,6 @@
 
 .product-actions a:hover {
   background-color: var(--color-olivine);
-  border-color: #7fad39;
   transition: all 0.5s;
 }
 
@@ -144,7 +142,7 @@
 }
 
 .price-sec {
-  color: #bdbdbd;
+  color: var(--color-muted);
   font-size: var(--size-small);
   font-weight: var(--font-weight-bold);
   line-height: 24px;
@@ -165,4 +163,16 @@
 .product-img {
   width: 238px;
   height: 300px;
+}
+
+.btn-learn-full .text-learn {
+  color: var(--color-olivine);
+}
+
+.btn-learn-full:hover .text-learn {
+  color: var(--color-light);
+}
+
+.btn-learn-full:hover .icon-arrow {
+  fill: var(--color-light);
 }

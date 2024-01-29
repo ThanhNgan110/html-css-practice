@@ -38,7 +38,7 @@
 
 .card-item-price-full .box-circle {
   color: var(--color-light);
-  background-color: #e77c40;
+  background-color: var(--color-burnt-sienna);
   border-radius: 52px;
   padding: 29px 16px;
   font-size: 24px;
@@ -62,7 +62,7 @@
 }
 
 .card-item-price-full .item-text {
-  color: azure;
+  color: var(--color-light);
 }
 
 .img-heart {
@@ -124,11 +124,11 @@
 }
 
 .check {
-  background: #2dc071;
+  background: var(--color-success)
 }
 
 .none-check {
-  background: #bdbdbd;
+  background-color: var(--color-muted);
 }
 
 .item-text {

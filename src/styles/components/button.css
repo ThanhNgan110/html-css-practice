@@ -29,7 +29,7 @@
 }
 
 .btn-primary:hover {
-  background-color: #a4cc75;
+  background-color: var(--color-wild-willow);
 }
 
 .btn-full {
@@ -78,7 +78,8 @@
 }
 
 .btn-learn-full:hover {
-  color: var(--color-olivine);
+  color: var(--color-light);
+  background-color: var(--color-olivine);
   border: none;
   transition: 0.5s;
 }
@@ -92,19 +93,17 @@
 }
 
 .btn-lg:hover {
-  background-color: #a4cc75;
+  background-color: var(--color-wild-willow);
   color: var(--color-light);
 }
 
 .btn-form {
   background-color: var(--color-olivine);
-  border: 1px solid #e6e6e6;
+  border: 1px solid var(--color-mercury);
   border-radius: 0 5px 5px 0;
   width: 117px;
   height: 58px;
   padding: 15px 22px;
-  position: absolute;
-  right: 27%;
 }
 
 .btn-form:hover {
