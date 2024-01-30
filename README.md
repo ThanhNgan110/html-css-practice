@@ -4,7 +4,7 @@
 * This is the document provided required for HTML CSS practice one
 * Design [Figma](https://pages.github.com/](https://www.figma.com/file/LAykK6W1sGo1plMlbTUhuA/School-Victory---html-and%C2%A0css-template%C2%A0with-source-code%C2%A0free%C2%A0download-for-school-(Community)?type=design&node-id=2638-6256&mode=design&t=poNeqC9hKRH1qH0H-0)https://www.figma.com/file/LAykK6W1sGo1plMlbTUhuA/School-Victory---html-and%C2%A0css-template%C2%A0with-source-code%C2%A0free%C2%A0download-for-school-(Community)?type=design&node-id=2638-6256&mode=design&t=poNeqC9hKRH1qH0H-0)
 # TIMELINE
-* Expected: 9 Days (2023/10/01 - 2023/22/01)
+* Expected: 9 Days (2023/01/10 - 2023/01/22)
 * Total:
 # TEAM SIZE
 * 1 dev
