@@ -1,15 +1,22 @@
 :root {
-  /* Default 1rem = 16px */
+  /* Define 1rem is 16px */
   --font-size-base: 16;
 
-  --font-size-xxsmall:14;
-  --font-size-xsmall: 16;
-  --font-size-small:18;
-  --font-size-medium:32;
-  --font-size-large:40;
-  --font-size-xlarge:56;
+  --font-size-xxsmall: calc(14 / var(--font-size-base)) rem;
+  --font-size-xsmall: calc(16 / var(--font-size-base)) rem;
+  --font-size-small: calc(18 / var(--font-size-base)) rem;
+  --font-size-medium: calc(24 / var(--font-size-base)) rem;
 
+  --color-primary: #191825;
+  --color-second: #f85e9f;
+  --color-ebony-clay: #222831;
+  --color-orange: #ff5722;
+  --color-bright-sun: #facd49;
+  --color-white: #ffffff;
 
+  --background-color-primary: #5d50c6;
 
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
 }
-
