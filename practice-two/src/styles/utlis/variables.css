@@ -14,4 +14,9 @@
   --color-bright-sun: #facd49;
   --color-white: #ffffff;
 
+  --background-color-primary: #5d50c6;
+
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
 }
