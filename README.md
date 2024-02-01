@@ -1,32 +1,29 @@
 # HTML-CSS PRACTICE ONE
 * 10th January 2024
-# OVERVIEW
-* This is the document provided required for HTML CSS practice one
-* Design [Figma](https://pages.github.com/](https://www.figma.com/file/LAykK6W1sGo1plMlbTUhuA/School-Victory---html-and%C2%A0css-template%C2%A0with-source-code%C2%A0free%C2%A0download-for-school-(Community)?type=design&node-id=2638-6256&mode=design&t=poNeqC9hKRH1qH0H-0)https://www.figma.com/file/LAykK6W1sGo1plMlbTUhuA/School-Victory---html-and%C2%A0css-template%C2%A0with-source-code%C2%A0free%C2%A0download-for-school-(Community)?type=design&node-id=2638-6256&mode=design&t=poNeqC9hKRH1qH0H-0)
-# TIMELINE
-* Expected: 9 Days (2023/10/01 - 2023/22/01)
+## OVERVIEW
+* This is the document provided required for HTML CSS practice 
+* Design [Figma](https://www.figma.com/file/9aPJdY3orCNKE0qzLsWkxo/Responsive-Web-Design-in-Figma-(Community)?type=design&node-id=1156-1192&mode=design&t=bm5NvSjGNOvgEHit-0)
+## TIMELINE
+* Expected: 8 Days (2024/01/31 - 2024/02/22)
 * Total:
-# TEAM SIZE
+## TEAM SIZE
 * 1 dev
-# TARGETS
-* Build and deploy a website by applying all the HTML/CSS knowledge from the training process
-* Slide from Sketch Design on Figma to HTML/CSS
-* Understand the concepts of CSS layout
-# TECHNICAL STACK
+## TARGETS
+* Apply knowledge to build a website based on responsive design
+* Used media queries for popular screen size
+* Design structure css follows 7-1 pattern.
+## TECHNICAL STACK
 * Visual Studio Code
 * HTML5
 * CSS3
 * Parcel
 * Vercel
 * Perfect Pixel
-# REQUIREMENTS
-* Use the right HTML tags
-* Apply CSS guidelines
-* Apply Flexbox
-* Deploy on Vercel
-* Use [Perfect pixel](https://chromewebstore.google.com/detail/perfectpixel-by-welldonec/dkaagdgjmgdmbnecmcefdhjekcoceebi?hl=en) and check performance at [Page Speed](https://pagespeed.web.dev/)
-* Use [Parcel](https://parceljs.org/languages/html/#posthtml) build tool for hot reloading + split HTML components
-* Not responsive
+## REQUIREMENTS
+* Work fine on Chrome browser latest version
+* Responsive (Mobile, Tablet, Desktop)
+## How to run
+
 
 
 
