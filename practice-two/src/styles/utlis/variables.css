@@ -1,0 +1,15 @@
+:root {
+  /* Default 1rem = 16px */
+  --font-size-base: 16;
+
+  --font-size-xxsmall:14;
+  --font-size-xsmall: 16;
+  --font-size-small:18;
+  --font-size-medium:32
+  --font-size-large:40;
+  --font-size-xlarge:56;
+
+
+
+}
+
