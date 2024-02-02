@@ -1,11 +1,11 @@
 .heading-sub {
   color: var(--color-second);
-  font-size: var(--font-size-xsmall);
+  font-size: calc(16 / 14) rem;
   font-weight: var(--font-weight-bold);
 }
 
 .section-heading {
   color: var(--color-primary);
+  font-size: calc(32 / 14) rem;
   font-weight: var(--font-weight-bold);
-  font-size: var(--font-size-large);
 }
