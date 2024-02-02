@@ -1,12 +1,13 @@
 :root {
-  /* Define 1rem is 16px */
-  --font-size-base: 16;
+  /* font-size: 14px */
+  /* 14px / 16px = 0.875 = 87.5% */
+  --font-size-base: 87.5%;
 
-  --font-size-xxsmall: calc(14 / var(--font-size-base)) rem;
+  /* --font-size-xxsmall: calc(14 / var(--font-size-base)) rem;
   --font-size-xsmall: calc(16 / var(--font-size-base)) rem;
   --font-size-small: calc(18 / var(--font-size-base)) rem;
   --font-size-xlarge: calc(24 / var(--font-size-base)) rem;
-  --font-size-large: calc(32 / var(--font-size-base)) rem;
+  --font-size-large: calc(32 / var(--font-size-base)) rem; */
 
   --color-primary: #191825;
   --color-second: #f85e9f;
