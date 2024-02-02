@@ -1,7 +1,7 @@
 :root {
-  /* font-size: 14px */
-  /* 14px / 16px = 0.875 = 87.5% */
-  --font-size-base: 87.5%;
+  /* font-size: 16px */
+  /* 16px / 16px = 1 = 100% */
+  --font-size-base: 100%;
 
   /* --font-size-xxsmall: calc(14 / var(--font-size-base)) rem;
   --font-size-xsmall: calc(16 / var(--font-size-base)) rem;
