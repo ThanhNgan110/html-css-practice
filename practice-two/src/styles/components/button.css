@@ -3,3 +3,19 @@
   cursor: pointer;
 }
 
+.btn-log-in {
+  border: none;
+  background-color: transparent;
+  font-weight: var(--font-weight-bold);
+  font-size: 0.875rem;
+}
+
+.btn-sign-up {
+  border: none;
+  border-radius: 100px;
+  background-color: var(--background-color-primary);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-white);
+  padding: 16px 32px;
+  font-size: 0.875rem;
+}
