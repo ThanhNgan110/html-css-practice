@@ -59,7 +59,16 @@ label {
 
 .nav-item {
   margin-right: 64px;
+}
+
+.nav-link {
+  color: var(--color-primary-transparency);
+  font-weight: var(--font-weight-bold);
   font-size: 0.875rem;
+}
+
+.nav-link:hover {
+  color: var(--color-ebony-clay);
 }
 
 @media (min-width: 600px) {
