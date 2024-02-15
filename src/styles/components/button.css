@@ -1,0 +1,37 @@
+.btn {
+  display: inline-block;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.btn-log-in {
+  border: none;
+  background-color: transparent;
+  font-weight: var(--font-weight-bold);
+  font-size: 0.875rem;
+}
+
+.btn-log-in:hover {
+  border: none;
+  background-color: var(--background-color-primary);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-white);
+  padding: 16px 32px;
+  font-size: 0.875rem;
+  transition: 0.5s;
+}
+
+.btn-sign-up {
+  border: none;
+  background-color: var(--background-color-primary);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-white);
+  padding: 16px 32px;
+  font-size: 0.875rem;
+}
+
+.btn-sign-up:hover {
+  color: var(--color-ebony-clay);
+  background-color: var(--color-white);
+  transition: 0.5s;
+}
