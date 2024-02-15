@@ -9,6 +9,7 @@
   --font-size-xlarge: calc(24 / var(--font-size-base)) rem;
   --font-size-large: calc(32 / var(--font-size-base)) rem; */
 
+  --color-primary-transparency: #19182580;
   --color-primary: #191825;
   --color-second: #f85e9f;
   --color-ebony-clay: #222831;
