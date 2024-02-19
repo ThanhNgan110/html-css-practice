@@ -46,25 +46,24 @@ button {
   padding: 16px 32px 16px 32px;
   color: var(--color-second);
   font-weight: var(--font-weight-bold);
-  /* font-size: calc(14 / 16) * 1rem; */
+  font-size: 0.875rem;
   border: none;
   background-color: var(--color-white);
   box-shadow: var(--box-shadow-outline);
 }
 
 .btn-outline {
-  width: 398px;
-  height: 65px;
   text-align: center;
   font-weight: var(--font-weight-bold);
   color: var(--color-white);
   padding: 24px 32px 24px 32px;
   background-color: var(--background-color-primary);
+  font-size: 0.875rem;
+  width: 100%;
+  min-width: 398px;
 }
 
 .btn-full {
-  width: 398px;
-  height: 65px;
   text-align: center;
   font-weight: var(--font-weight-bold);
   padding: 24px 32px 24px 32px;
@@ -73,4 +72,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 0.875rem;
+  width: 100%;
+  min-width: 398px;
 }
