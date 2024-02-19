@@ -10,3 +10,17 @@
   height: 40px;
   block-size: auto;
 }
+
+.icon-bag {
+  background-image: url("/src/assets/images/icons/icon-bag.svg");
+  width: 20px;
+  height: 20px;
+  margin-left: 18px;
+}
+
+.icon-play {
+  background-image: url("/src/assets/images/icons/icon-play.svg");
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
