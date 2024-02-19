@@ -9,3 +9,6 @@
   font-size: calc(32 / 14) rem;
   font-weight: var(--font-weight-bold);
 }
+.text-center {
+  text-align: center;
+}
