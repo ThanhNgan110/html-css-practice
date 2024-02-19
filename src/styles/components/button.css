@@ -1,3 +1,7 @@
+button {
+  font-family: Circular;
+}
+
 .btn {
   display: inline-block;
   border-radius: 100px;
@@ -34,4 +38,39 @@
   color: var(--color-ebony-clay);
   background-color: var(--color-white);
   transition: 0.5s;
+}
+
+.btn-light {
+  display: flex;
+  align-items: center;
+  padding: 16px 32px 16px 32px;
+  color: var(--color-second);
+  font-weight: var(--font-weight-bold);
+  /* font-size: calc(14 / 16) * 1rem; */
+  border: none;
+  background-color: var(--color-white);
+  box-shadow: var(--box-shadow-outline);
+}
+
+.btn-outline {
+  width: 398px;
+  height: 65px;
+  text-align: center;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-white);
+  padding: 24px 32px 24px 32px;
+  background-color: var(--background-color-primary);
+}
+
+.btn-full {
+  width: 398px;
+  height: 65px;
+  text-align: center;
+  font-weight: var(--font-weight-bold);
+  padding: 24px 32px 24px 32px;
+  background-color: var(--color-white);
+  border: 1px solid rgb(238, 238, 238);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
