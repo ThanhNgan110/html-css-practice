@@ -1,0 +1,36 @@
+:root {
+  /* font-size: 16px */
+  /* 16px / 16px = 1 = 100% */
+  --font-size-base: 100%;
+  --base-font-size: 16;
+
+  /* --font-size-xxsmall: calc(14 / var(--font-size-base)) rem;
+  --font-size-xsmall: calc(16 / var(--font-size-base)) rem;
+  --font-size-small: calc(18 / var(--font-size-base)) rem;
+  --font-size-xlarge: calc(24 / var(--font-size-base)) rem;
+  --font-size-large: calc(32 / var(--font-size-base)) rem; */
+
+  --color-primary-transparency: #19182580;
+  --color-primary: #191825;
+  --color-second: #f85e9f;
+  --color-ebony-clay: #222831;
+  --color-orange: #ff5722;
+  --color-bright-sun: #facd49;
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gallery:#EEEEEE;
+  
+
+  --background-color-primary: #5d50c6;
+
+  --box-shadow-outline: 0px 0px 0px 0px rgba(0, 0, 0, 0.07),
+    0px 34px 75px 0px rgba(0, 0, 0, 0.07),
+    0px 137px 137px 0px rgba(0, 0, 0, 0.06),
+    0px 308px 185px 0px rgba(0, 0, 0, 0.04),
+    0px 548px 219px 0px rgba(0, 0, 0, 0.01),
+    0px 856px 240px 0px rgba(0, 0, 0, 0);
+
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --font-weight-black: 900;
+}
