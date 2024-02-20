@@ -1,19 +1,17 @@
 @font-face {
-  font-family: Circular;
-  src: url("../../assets/fonts/circular-std/CircularStd-Black.ttf")
-    format("truetype");
-  font-weight: var(--font-weight-black);
-}
-
-@font-face {
-  font-family: Circular;
-  src: url("../../assets/fonts/circular-std/CircularStd-Bold.ttf")
-    format("truetype");
-  font-weight: var(--font-weight-bold);
-}
-
-@font-face {
   font-family: Inter;
   src: url("../../assets/fonts/inter/Inter-Regular.ttf") format("truetype");
+  font-weight: var(--font-weight-regular);
+}
+
+@font-face {
+  font-family: Adamina;
+  src: url("../../assets/fonts/adamina/Adamina-Regular.ttf") format("truetype");
+  font-weight: var(--font-weight-regular);
+}
+
+@font-face {
+  font-family: ABeeZee;
+  src: url("../../assets/fonts/abeezee/ABeeZee-Regular.ttf") format("truetype");
   font-weight: var(--font-weight-regular);
 }
