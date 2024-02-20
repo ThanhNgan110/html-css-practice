@@ -1,0 +1,16 @@
+.section-trademark {
+  padding: 32px 0;
+}
+
+.trademark-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 27px;
+}
+
+.trademark-top,
+.trademark-bottom {
+  display: flex;
+  gap: 27px;
+}
