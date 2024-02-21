@@ -35,3 +35,9 @@
   width: 15.36px;
   height: 15.36px;
 }
+
+.icon-star {
+  background-image: url("/src/assets/images/icons/icon-star.svg");
+  width: 24px;
+  height: 24px;
+}
