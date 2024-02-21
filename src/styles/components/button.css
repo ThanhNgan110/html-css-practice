@@ -14,7 +14,6 @@ button {
   align-items: center;
   padding: 16px 32px 16px 32px;
   color: var(--color-second);
-  font-size: 14px;
   border: none;
   background-color: var(--color-white);
   box-shadow: var(--box-shadow-light);
@@ -23,7 +22,6 @@ button {
 .btn-log-in {
   border: none;
   background-color: transparent;
-  font-size: 14px;
   padding: 16px 32px;
 }
 
@@ -40,7 +38,6 @@ button {
   font-weight: var(--font-weight-bold);
   color: var(--color-white);
   padding: 16px 32px;
-  font-size: 14px;
 }
 
 .btn-sign-up:hover {
@@ -54,7 +51,7 @@ button {
   color: var(--color-white);
   padding: 24px 32px 24px 32px;
   background-color: var(--background-color-primary);
-  font-size: 14px;
+  font-size: 0.865rem;
   width: 100%;
   box-shadow: var(--box-shadow-outline);
 }
@@ -69,6 +66,20 @@ button {
   gap: 10px;
   align-items: center;
   justify-content: center;
-  font-size: 14px;
+  font-size: 0.875rem;
   width: 100%;
+}
+
+.btn-circle-light {
+  width: 64px;
+  height: 64px;
+  border: var(--border-primary);
+  background-color: var(--color-white);
+}
+
+.btn-circle-full {
+  width: 64px;
+  height: 64px;
+  border: var(--border-primary);
+  background-color: var(--background-color-primary);
 }

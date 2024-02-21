@@ -1,0 +1,134 @@
+.section-destination {
+  padding: 32px 0;
+}
+
+.card-destination {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+.card-body {
+  padding: 32px;
+}
+
+.price-destination {
+  font-size: 1.438rem;
+  line-height: 1.725rem;
+  color: var(--color-second);
+  font-weight: var(--font-weight-regular);
+  margin-bottom: 8px;
+}
+
+.title-destination {
+  font-size: 1.438rem;
+  line-height: 1.725rem;
+  color: var(--color-primary);
+  font-weight: var(--font-weight-regular);
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.place-destination {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  font-family: Inter;
+  font-weight: var(--font-weight-regular);
+  color: var(--color-primary-transparency);
+  margin-bottom: 32px;
+}
+
+.rate-destination {
+  font-size: 1.438rem;
+  line-height: 1.725rem;
+  font-weight: var(--font-weight-regular);
+  color: var(--color-orange);
+}
+
+.card-item-destination {
+  border-radius: 32px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  box-shadow: var(--box-shadow-light);
+}
+
+.card-image {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+.border-img {
+  border-radius: 32px 32px 0 0;
+}
+
+@media (min-width: 768px) {
+  .section-destination {
+    padding: 64px 0;
+  }
+
+  .card-destination {
+    display: flex;
+    flex-direction: row;
+    gap: 1.778rem;
+    margin-top: 3.722rem
+  }
+
+  .card-image {
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    max-width: 278px;
+    height: 314px;
+  }
+
+  .button-group {
+    margin-top: 64px;
+    display: flex;
+    justify-content: space-between
+  }
+  
+  .card-item-destination {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .price-destination {
+    font-size: 1.278rem;
+    line-height: 1.533rem;
+  }
+
+  .title-destination {
+    font-size: 1.278rem;
+    line-height: 1.533rem;
+    margin-bottom: 16px;
+    text-align: left;
+  }
+
+  .place-destination {
+    font-size: 1.125rem;
+    line-height: 1.8rem;
+  }
+
+  .rate-destination {
+
+  }
+
+ 
+}
