@@ -23,3 +23,15 @@
   width: 20px;
   height: 20px;
 }
+
+.icon-arrow-left {
+  background-image: url("/src/assets/images/icons/arrow-left.svg");
+  width: 15.36px;
+  height: 15.36px;
+}
+
+.icon-arrow-right {
+  background-image: url("/src/assets/images/icons/arrow-right.svg");
+  width: 15.36px;
+  height: 15.36px;
+}
