@@ -50,6 +50,16 @@
     font-size: 112.5%;
   }
 
+  .heading-primary {
+    font-size: 3.556rem;
+    line-height: 4.267rem;
+  }
+
+  .hero-description {
+    font-size: 1rem;
+    line-height: 1.6rem;
+  }
+
   .btn-group {
     display: flex;
     flex-direction: row;
@@ -71,10 +81,6 @@
 }
 
 @media (min-width: 1200px) {
-  html {
-    font-size: 150%;
-  }
-
   .section-hero {
     display: flex;
     justify-content: center;
@@ -87,6 +93,8 @@
 
   .heading-primary {
     text-align: unset;
+    font-size: 3.556rem;
+    line-height: 4.267rem;
   }
 
   .hero-text-box {
@@ -97,6 +105,8 @@
 
   .hero-description {
     text-align: unset;
+    font-size: 1rem;
+    line-height: 1.6rem;
   }
 
   .text-style {
