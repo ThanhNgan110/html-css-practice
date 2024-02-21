@@ -34,7 +34,7 @@
 
 .card-item-service {
   padding: 32px;
-  border: var(--border-card);
+  border: var(--border-primary);
   border-radius: 32px;
   display: flex;
   flex-direction: column;
