@@ -154,4 +154,9 @@
     max-width: 373.33px;
     height: 350px;
   }
+
+  .destination-box {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 }

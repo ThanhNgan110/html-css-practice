@@ -1,0 +1,70 @@
+.section-travelpoint {
+  padding: 32px 0;
+}
+
+.box-content-travelpoint {
+  margin-top: 64px;
+}
+
+.description-travelpoint {
+  font-size: 1rem;
+  font-weight: var(--font-weight-regular);
+  line-height: 1.6rem;
+  color: #19182550;
+  margin-top: 2rem;
+}
+
+.card-treatment {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.card-item-treatment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  border: var(--border-primary);
+  border-radius: 32px;
+  padding: 32px;
+}
+
+.amount {
+  font-size: 2.188rem;
+  font-weight: var(--font-weight-regular);
+  line-height: 2.625rem;
+  color: var(--color-orange);
+}
+
+.treatment-label {
+  font-size: 1.125rem;
+  font-weight: var(--font-weight-regular);
+  line-height: 1.8rem;
+  color: var(--color-primary);
+}
+
+@media (min-width: 768px) {
+  .section-travelpoint {
+    padding: 64px 0;
+  }
+
+  .description-travelpoint {
+    margin-top: 1.778rem;
+  }
+
+  .card-treatment {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1200px) {
+ .wrapper-travelpoint {
+  display: flex;
+  align-items: center;
+ }
+
+}
+
