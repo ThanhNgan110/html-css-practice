@@ -120,7 +120,7 @@
   .heading-primary {
     text-align: unset;
     font-size: 2.667rem;
-    line-height: 3.2rem;
+    line-height: 4.267rem;
   }
 
   .hero-text-box {
@@ -135,6 +135,7 @@
     text-align: unset;
     font-size: 1rem;
     line-height: 1.6rem;
+    margin-bottom: 2.389rem;
   }
 
   .text-style {
