@@ -104,6 +104,13 @@
   .heading-box {
     min-width: 444px;
     text-align: unset;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-service {
+    margin: 0;
   }
 
   .card-item-service {
