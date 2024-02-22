@@ -63,17 +63,6 @@
     flex-direction: column;
   }
 
-  .subheading {
-    font-size: 1.278rem;
-    line-height: 1.533rem;
-  }
-
-  .heading-secondary {
-    font-size: 2.222rem;
-    line-height: 2.667rem;
-    margin-top: 0.889rem;
-  }
-
   .card-service {
     display: flex;
     flex-direction: row;
