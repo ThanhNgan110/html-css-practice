@@ -61,7 +61,10 @@
 }
 
 @media (min-width: 1200px) {
-
+ .wrapper-travelpoint {
+  display: flex;
+  align-items: center;
+ }
 
 }
 
