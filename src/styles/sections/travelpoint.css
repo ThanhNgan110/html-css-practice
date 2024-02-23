@@ -2,6 +2,10 @@
   padding: 32px 16px;
 }
 
+.img-travelpoint {
+  max-width: 100%;
+}
+
 .box-content-travelpoint {
   margin-top: 64px;
 }
