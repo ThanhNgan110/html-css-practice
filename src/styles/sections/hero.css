@@ -1,6 +1,5 @@
 .section-hero {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 32px 16px;
 }
 
 .wrapper-hero {
@@ -65,8 +64,11 @@
   }
 
   .section-hero {
-    padding-top: 3.556rem;
-    padding-bottom: 3.556rem;
+    padding: 64px 64px;
+  }
+
+  .hero-container {
+    padding: 0 64px;
   }
 
   .heading-primary {
@@ -115,6 +117,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 64px 128px;
   }
 
   .heading-primary {

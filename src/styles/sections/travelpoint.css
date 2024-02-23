@@ -1,5 +1,5 @@
 .section-travelpoint {
-  padding: 32px 0;
+  padding: 32px 16px;
 }
 
 .box-content-travelpoint {
@@ -47,7 +47,11 @@
 
 @media (min-width: 768px) {
   .section-travelpoint {
-    padding: 64px 0;
+    padding: 64px 64px;
+  }
+
+  .statistical-box {
+    text-align: center;
   }
 
   .description-travelpoint {
@@ -56,15 +60,42 @@
 
   .card-treatment {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr; 
+    gap: 32px
   }
+
+  .amount {
+    font-size: 1.944rem;
+    line-height: 2.333rem;
+  }
+
+  
+.treatment-label {
+  font-size: 1rem;
+  line-height: 1.6rem;
+}
+  
 }
 
 @media (min-width: 1200px) {
- .wrapper-travelpoint {
-  display: flex;
-  align-items: center;
- }
+  .section-travelpoint {
+    padding: 64px 128px 64px 0;
+  }
 
+  .wrapper-travelpoint {
+    display: flex;
+    align-items: center;
+  }
+
+  .box-content-travelpoint {
+    margin-top: 0;
+  }
+  
+  .card-treatment {
+    gap: 32px;
+  }
+
+  .card-item-treatment {
+    min-width: 218.5px;
+  }
 }
-

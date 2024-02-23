@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 32px 0;
+  padding: 32px 16px;
 }
 
 .trademark-box {
@@ -12,17 +12,11 @@
   gap: 27px;
 }
 
-/* .trademark-top {
-  display: flex;
-  gap: 27px;
-} */
+@media (min-width: 768px) {
+  .section-trademark {
+    padding: 64px 64px;
+  }
 
-/* .trademark-bottom {
-  display: flex;
-  gap: 26px;
-} */
-
-@media (min-width:768px) {
   .trademark-box {
     flex-direction: row;
     align-items: center;
@@ -36,7 +30,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: normal;
-    
+    padding: 64px 128px;
   }
   .trademark-box {
     flex-direction: row;
