@@ -32,6 +32,7 @@
   line-height: 3rem;
   margin-bottom: 1.5rem;
   margin-top: 1rem;
+  text-align: center;
 }
 
 .heading-primary .text-black {
@@ -48,6 +49,7 @@
   font-size: 1rem;
   line-height: 1.6rem;
   margin-bottom: 2rem;
+  text-align: center;
 }
 
 .btn-group {
@@ -88,6 +90,8 @@
     flex-direction: row;
     align-items: center;
     gap: 43px;
+    min-width: 398px;
+    width: 100%;
   }
 
   .hero-img-block {
@@ -108,7 +112,7 @@
   .btn-outline,
   .btn-full {
     font-size: 0.778rem;
-    padding: 16px 32px;
+    padding: 16px 29px;
   }
 }
 
@@ -118,6 +122,10 @@
     justify-content: center;
     align-items: center;
     padding: 64px 128px;
+  }
+
+  .hero-img {
+    max-width: unset;
   }
 
   .heading-primary {
@@ -144,4 +152,5 @@
   .text-style {
     display: block;
   }
+
 }
