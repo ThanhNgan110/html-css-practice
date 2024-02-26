@@ -125,19 +125,18 @@
 @media (min-width: 1200px) {
   .section-testimonials {
     margin-top: 0;
-    padding: 0;
-}
+    padding: 0 128px;
+  }
 
-.left {
-  position: absolute;
-  left: 9%;
-  top: 37%;
-}
+  .left {
+    position: absolute;
+    left: 0;
+    top: 37%;
+  }
 
-.right {
-  position: absolute;
-  right: 9%;
-  top: 37%;
-}
-
+  .right {
+    position: absolute;
+    right: 0;
+    top: 37%;
+  }
 }
