@@ -1,0 +1,14 @@
+.form-control {
+  font-family: Adamina;
+  display: block;
+  width: 100%;
+  font-size: 0.875rem;
+  font-weight: #191825BF;
+}
+
+@media (min-width: 768px) { 
+  .form-control {
+    font-size: 1.278rem;
+    line-height: 1.533rem;
+  }
+}
