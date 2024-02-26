@@ -14,7 +14,8 @@
 
 @media (min-width: 768px) {
   .section-trademark {
-    padding: 64px 64px;
+   padding: 0 64px;
+    margin-top: 50px;
   }
 
   .trademark-box {
@@ -30,7 +31,8 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: normal;
-    padding: 64px 128px;
+    padding: 0 128px;
+    margin-top: 0;
   }
   .trademark-box {
     flex-direction: row;
