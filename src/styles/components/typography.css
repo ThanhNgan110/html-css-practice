@@ -20,7 +20,7 @@
   text-transform: uppercase;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
   .subheading {
     font-size: 1.278rem;
     line-height: 1.533rem;
@@ -31,8 +31,11 @@
     line-height: 2.667rem;
     margin-top: 0.889rem;
   }
-  
 }
 
-
-
+@media (min-width: 1200px) {
+  .heading-secondary {
+    font-size: 2.667rem;
+    line-height: 3.2rem;
+  }
+}
