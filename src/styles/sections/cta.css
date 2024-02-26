@@ -1,0 +1,92 @@
+.section-cta {
+  margin-top: 144px;
+  padding: 0 16px;
+}
+
+.cta {
+  background-color: #facd4914;
+  padding: 64px 32px;
+  border-radius: 32px
+}
+
+.cta-text-box {
+  margin-top: 64px;
+}
+
+.cta-email-input {
+  position: relative;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-absolute {
+  position: absolute;
+  left: 5%;
+  top: 22%;
+}
+
+.cta {
+  margin-top: 64px
+}
+
+.input-email {
+  border-radius: 16px;
+  padding: 24px 52px;
+  margin-bottom: 32px;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .section-cta {
+    margin-top: 162px;
+    padding: 0 64px;
+  }
+
+  .cta {
+    padding: 128px 64px;
+  }
+
+  .icon-absolute {
+    position: absolute;
+    left: 5%;
+    top: 31%;
+  }
+
+  .cta-email-input {
+    flex-grow: 1;
+  }
+
+  .input-email {
+    margin-bottom: 0;
+    padding: 23px 60px
+  }
+
+  .cta-form {
+    display: flex;
+    gap: 32px;
+  }
+
+  .btn-form {
+    width: 237px;
+  }
+}
+
+@media (min-width: 768px) {
+  .section-cta {
+    padding: 0 128px;
+  }
+
+  .cta-email-input {
+    flex-grow: 1;
+  }
+
+  .input-email {
+    padding: 23px 70px;
+  }
+
+  .btn-form {
+    width: 237px;
+  }
+}
