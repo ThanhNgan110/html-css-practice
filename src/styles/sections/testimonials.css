@@ -3,6 +3,8 @@
   padding: 32px 16px;
 }
 
+
+
 .carousel {
   position: relative;
 }
@@ -44,7 +46,7 @@
   line-height: 1.6rem;
   text-align: center;
   margin-top: 64px;
-  color: #191825BF;
+  color: #191825bf;
 }
 
 .carousel-control {
@@ -84,16 +86,58 @@
 @media (min-width: 768px) {
   .section-testimonials {
     padding: 64px 64px;
+    margin-top: 0;
   }
 
-  .testimonial-name { 
+  .carousel-item {
+    padding: 0 156px;
+  }
+
+  .testimonial-name {
     font-size: 1.556rem;
     line-height: 1.867rem;
+    margin-top: 56px;
   }
 
   .testimonial-des {
     font-size: 1rem;
     line-height: 1.6rem;
+    margin-top: 56px;
   }
- 
+
+  .dots {
+    margin-top: 56px;
+  }
+
+  .left {
+    position: absolute;
+    left: 0;
+    top: 30%;
+  }
+
+  .right {
+    position: absolute;
+    right: 0;
+    top: 30%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-testimonials {
+    margin-top: 0;
+    padding: 0;
+}
+
+.left {
+  position: absolute;
+  left: 9%;
+  top: 37%;
+}
+
+.right {
+  position: absolute;
+  right: 9%;
+  top: 37%;
+}
+
 }

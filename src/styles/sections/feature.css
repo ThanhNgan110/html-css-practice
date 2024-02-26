@@ -24,7 +24,6 @@
   font-weight: var(--font-weight-regular);
   color: #19182550;
   margin-top: 2rem;
-  max-width: 334px;
 }
 
 .card-feature {
@@ -85,7 +84,17 @@
   }
 
   .section-feature {
+    padding: 0 64px;
+  }
+
+  .wrapper-section-feature {
     padding: 64px 32px;
+  }
+
+  .card-feature {
+    flex-direction: column;
+    margin-top: 64px;
+    gap: 0;
   }
 
   .content-feature {
@@ -109,16 +118,22 @@
     align-items: center;
     gap: 32px;
   }
+
+  .box-icon {
+    margin-bottom: 0;
+  }
 }
 
 @media (min-width: 1200px) {
   .section-feature {
-    padding: 64px 0 64px 32px;
+    padding-left: 118px;
+    padding-right: 10px;
   }
   .wrapper-section-feature {
     display: flex;
     flex-direction: row-reverse;
     gap: 70px;
+    padding: 64px 0;
   }
 
   .text-center {

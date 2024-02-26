@@ -85,3 +85,10 @@ button {
   border: var(--border-primary);
   background-color: var(--background-color-primary);
 }
+
+@media (min-width: 768px) {
+  .btn-circle-light, .btn-circle-full {
+    width: 100px;
+    height: 100px;
+  }
+}
