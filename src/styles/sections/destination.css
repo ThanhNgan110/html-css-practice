@@ -15,6 +15,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  flex-grow: 1;
 }
 
 .button-group {
@@ -99,9 +100,10 @@
   }
 
   .button-group {
-    margin-top: 64px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin-top: 45px;
+    gap: 32px;
   }
 
   .card-item-destination {
