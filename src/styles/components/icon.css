@@ -57,6 +57,12 @@
   height: 48px;
 }
 
+.icon-email {
+  width: 24px;
+  height: 24px;
+  background-image: url("/src/assets/images/icons/icon-email.svg");
+}
+
 
 
 

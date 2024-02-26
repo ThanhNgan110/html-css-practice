@@ -26,8 +26,8 @@
 }
 
 .testimonial-name {
-  font-size: 1.75rem;
-  line-height: 2.1rem;
+  font-size: 1.438rem;
+  line-height: 1.725rem;
   color: var(--color-orange);
   margin-top: 64px;
   text-align: center;
@@ -94,8 +94,8 @@
   }
 
   .testimonial-name {
-    font-size: 1.556rem;
-    line-height: 1.867rem;
+    font-size: 1.278rem;
+    line-height: 1.533rem;
     margin-top: 56px;
   }
 
