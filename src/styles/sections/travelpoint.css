@@ -97,16 +97,13 @@
 
 @media (min-width: 1200px) {
   .section-travelpoint {
-   padding-right: 128px;
-   padding-left: 0;
+    padding: 0 64px;
   }
 
   .wrapper-travelpoint {
     display: flex;
     align-items: flex-start;
-    padding-top: 64px;
-    padding-bottom: 0;
-    padding-left: 0;
+    padding: 65px 0;
   }
 
   .box-content-travelpoint {
