@@ -143,6 +143,10 @@
     gap: 64px;
   }
 
+  .nav-col {
+    min-width: 165px;
+  }
+
   .logo-col {
     flex: 0 1 50%;
   }
