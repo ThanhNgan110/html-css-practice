@@ -31,6 +31,10 @@
   margin-top: 64px
 }
 
+.subheading-letter-space {
+  letter-spacing: 0.2rem;
+}
+
 .input-email {
   border-radius: 16px;
   padding: 24px 52px;
@@ -46,6 +50,10 @@
 
   .cta {
     padding: 128px 64px;
+  }
+   
+  .subheading-letter-space {
+    letter-spacing: 0.178rem;
   }
 
   .icon-absolute {
@@ -73,7 +81,7 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .section-cta {
     padding: 0 128px;
   }
