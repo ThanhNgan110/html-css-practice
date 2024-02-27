@@ -80,7 +80,7 @@
   }
 
   .footer-wrapper {
-    padding: 0 64px;
+    padding: 64px 0;
   }
 
   .nav-cols {
@@ -127,6 +127,23 @@
     color: #191825BF;
     font-size: 1rem;
     line-height: 1.6rem;
+    font-style: normal;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer {
+    padding: 0 128px;
   }
 
+  .footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+  }
+
+  .logo-col {
+    flex: 0 1 50%;
+  }
 }
