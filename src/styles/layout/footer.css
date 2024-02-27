@@ -1,0 +1,153 @@
+.footer {
+  padding: 0 16px;
+}
+
+.footer-wrapper {
+  padding: 32px 0;
+}
+
+.footer-logo {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.description-info {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: var(--color-primary-transparency);
+  font-weight: var(---font-weight-regular);
+  margin-bottom: 32px;
+}
+
+.social-links {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 64px;
+}
+
+.social-icon-svg {
+  width: 32px;
+  height: 32px;
+}
+
+.nav-cols {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.footer-nav {
+  display: none;
+}
+
+.nav-col, .address-col {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-heading {
+  font-size: 1.438rem;
+  line-height: 1.725rem;
+  font-weight: var(---font-weight-regular);
+}
+
+/* #dropdown-toggle {
+  display: none;
+}
+
+#dropdown-toggle:checked + .footer-nav {
+  display: block;
+} */
+
+.footer-nav, .contacts, .address {
+  display: none;
+}
+
+.arrow-down-icon-svg {
+  width: 24px;
+  height: 24px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 112.5%;
+  }
+
+  .footer {
+    padding: 0 64px;
+    margin-top: 64px;
+  }
+
+  .footer-wrapper {
+    padding: 64px 0;
+  }
+
+  .nav-cols {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    gap: 32px;
+  }
+
+  .nav-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .arrow-down-icon-svg {
+    display: none;
+  }
+
+  .footer-nav {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 32px
+  }
+
+  .contacts, .address {
+    display: block;
+  }
+
+  .address-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 32px;
+  }
+
+  .footer-link, .address {
+    color: #191825BF;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    font-style: normal;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer {
+    padding: 0 128px;
+  }
+
+  .footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+  }
+
+  .nav-col {
+    min-width: 165px;
+  }
+
+  .logo-col {
+    flex: 0 1 50%;
+  }
+}
