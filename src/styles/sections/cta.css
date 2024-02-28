@@ -23,7 +23,7 @@
 
 .icon-absolute {
   position: absolute;
-  left: 5%;
+  left: 9%;
   top: 22%;
 }
 
@@ -89,6 +89,12 @@
   .cta-email-input {
     flex-grow: 1;
   }
+
+  .icon-absolute {
+    position: absolute;
+    top: 31%;
+    left: 5%;
+}
 
   .input-email {
     padding: 23px 70px;
