@@ -1,7 +1,3 @@
-.text-center {
-  text-align: center;
-}
-
 .heading-secondary {
   font-family: Adamina;
   font-weight: var(--font-weight-regular);
@@ -20,7 +16,7 @@
   text-transform: uppercase;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .subheading {
     font-size: 1.278rem;
     line-height: 1.533rem;
@@ -33,7 +29,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .heading-secondary {
     font-size: 2.667rem;
     line-height: 3.2rem;
