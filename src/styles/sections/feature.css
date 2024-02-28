@@ -78,7 +78,7 @@
   color: #19182550;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   html {
     font-size: 112.5%;
   }
@@ -124,7 +124,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .section-feature {
     padding: 0 64px;
   }

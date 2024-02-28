@@ -1,5 +1,5 @@
 .section-cta {
-  margin-top: 144px;
+  margin-top: 163px;
   padding: 0 16px;
 }
 
@@ -36,10 +36,10 @@
 }
 
 .input-email {
-  border-radius: 16px;
-  padding: 24px 52px;
-  margin-bottom: 32px;
   border: none;
+  border-radius: 16px;
+  margin-bottom: 32px;
+  padding: 24px 70px;
 }
 
 @media (min-width: 768px) {
@@ -58,7 +58,7 @@
 
   .icon-absolute {
     position: absolute;
-    left: 5%;
+    left: 9%;
     top: 31%;
   }
 
