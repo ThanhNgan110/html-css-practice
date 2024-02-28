@@ -42,7 +42,7 @@
   padding: 24px 70px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .section-cta {
     margin-top: 162px;
     padding: 0 64px;
@@ -51,15 +51,15 @@
   .cta {
     padding: 128px 64px;
   }
-   
+
   .subheading-letter-space {
     letter-spacing: 0.178rem;
   }
 
   .icon-absolute {
     position: absolute;
-    left: 9%;
     top: 31%;
+    left: 7%;
   }
 
   .cta-email-input {
@@ -68,7 +68,7 @@
 
   .input-email {
     margin-bottom: 0;
-    padding: 23px 60px
+    padding: 23px 76px;
   }
 
   .cta-form {
@@ -81,7 +81,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .section-cta {
     padding: 0 128px;
   }
