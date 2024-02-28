@@ -15,8 +15,6 @@
 
 .hero-img {
   max-width: 100%;
-  /* max-width: 396.29px;
-  height: 366px; */
 }
 
 .hero-text-box {
@@ -122,10 +120,6 @@
     justify-content: center;
     align-items: center;
     padding: 64px 128px;
-  }
-
-  .hero-img {
-    max-width: unset;
   }
 
   .heading-primary {
