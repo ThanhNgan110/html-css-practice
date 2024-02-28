@@ -2,6 +2,10 @@
   padding: 32px 16px;
 }
 
+.heading-content {
+  text-align: center;
+}
+
 .card-destination {
   display: flex;
   flex-direction: column;
@@ -95,7 +99,6 @@
     object-fit: cover;
     object-position: center;
     width: 100%;
-    max-width: 278px;
     height: 314px;
   }
 
@@ -134,17 +137,15 @@
     padding: 64px 128px;
   }
 
-  .text-center {
-    text-align: unset;
-  }
-
-  .box-heading {
-    min-width: 444px;
-    text-align: unset;
+  .box-content-top {
     justify-content: space-between;
     align-items: center;
     display: flex;
     flex-direction: row;
+  }
+
+  .heading-content {
+    text-align: unset;
   }
 
   .button-group {
@@ -155,9 +156,6 @@
   }
 
   .card-image {
-    object-fit: cover;
-    object-position: center;
-    max-width: 373.33px;
     height: 350px;
   }
 

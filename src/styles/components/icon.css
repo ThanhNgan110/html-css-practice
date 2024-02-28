@@ -61,6 +61,12 @@
   background-image: url("/src/assets/images/icons/icon-email.svg");
 }
 
+.icon-rate {
+  width: 32px;
+  height: 32px;
+  background-image: url("/src/assets/images/icons/icon-rate.svg");
+}
+
 
 
 

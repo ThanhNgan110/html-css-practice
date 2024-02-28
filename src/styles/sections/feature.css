@@ -18,6 +18,10 @@
   margin-top: 64px;
 }
 
+.box-heading {
+  text-align: center;
+}
+
 .description-feature {
   font-size: 1rem;
   line-height: 1.6rem;
@@ -97,6 +101,10 @@
     gap: 0;
   }
 
+  .box-heading {
+    text-align: center;
+  }
+
   .content-feature {
     display: flex;
     flex-direction: column;
@@ -132,19 +140,21 @@
   .wrapper-section-feature {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: space-between;
     gap: 70px;
-    padding: 64px 0;
-  }
-
-  .text-center {
-    text-align: center;
+    padding: 64px 0px;
   }
 
   .box-content-feature {
     margin-top: 0;
   }
 
-  .img-feature {
-    max-width: unset;
+  .box-heading {
+    text-align: unset;
+  }
+
+  .box-heading {
+    text-align: unset;
+    max-width: 651px;
   }
 }

@@ -62,10 +62,6 @@
     padding: 64px 32px;
   }
 
-  .card-treatment {
-    margin-top: 64px;
-  }
-
   .img-travelpoint {
     max-width: unset;
   }
@@ -82,6 +78,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 32px;
+    margin-top: 40px;
   }
 
   .amount {
