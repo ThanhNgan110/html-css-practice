@@ -65,9 +65,10 @@
   .section-hero {
     padding: 64px 64px;
   }
-
-  .hero-container {
-    padding: 0 64px;
+   
+  .hero-img-box {
+    width: 712px;
+    height: 713px;
   }
 
   .heading-primary {
