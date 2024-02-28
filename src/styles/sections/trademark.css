@@ -12,7 +12,7 @@
   gap: 27px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .section-trademark {
    padding: 0 64px;
     margin-top: 50px;
@@ -26,7 +26,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .section-trademark {
     flex-direction: column;
     justify-content: space-between;
