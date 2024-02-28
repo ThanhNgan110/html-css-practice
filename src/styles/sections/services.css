@@ -52,7 +52,7 @@
   box-shadow: var(--box-shadow-card);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   .section-services {
     padding: 64px 64px;
   }
@@ -83,7 +83,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   .section-services {
     padding: 0 128px;
   }
