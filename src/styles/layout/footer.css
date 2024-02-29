@@ -27,11 +27,6 @@
   margin-bottom: 64px;
 }
 
-.social-icon-svg {
-  width: 32px;
-  height: 32px;
-}
-
 .nav-cols {
   display: flex;
   flex-direction: column;
@@ -40,6 +35,10 @@
 
 .footer-nav {
   display: none;
+}
+
+.footer-link:hover {
+  color: var(--color-second);
 }
 
 .nav-col, .address-col {
@@ -52,14 +51,6 @@
   line-height: 1.725rem;
   font-weight: var(---font-weight-regular);
 }
-
-/* #dropdown-toggle {
-  display: none;
-}
-
-#dropdown-toggle:checked + .footer-nav {
-  display: block;
-} */
 
 .footer-nav, .contacts, .address {
   display: none;
