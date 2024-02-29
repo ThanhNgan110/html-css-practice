@@ -65,6 +65,7 @@ label {
 
 .nav-link:hover {
   color: var(--color-ebony-clay);
+  box-shadow: var(--box-shadow-light);
 }
 
 @media (min-width: 1024px) {
