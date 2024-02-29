@@ -57,6 +57,10 @@
   width: 100%;
 }
 
+.btn-full:hover .icon-play {
+  fill: var(--color-gallery);
+}
+
 @media (min-width: 1024px) {
   html {
     font-size: 112.5%;
@@ -65,7 +69,7 @@
   .section-hero {
     padding: 64px 64px;
   }
-   
+
   .hero-img-box {
     width: 712px;
     height: 713px;
