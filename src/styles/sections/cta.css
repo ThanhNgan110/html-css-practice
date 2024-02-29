@@ -23,12 +23,8 @@
 
 .icon-absolute {
   position: absolute;
-  left: 9%;
-  top: 22%;
-}
-
-.cta {
-  margin-top: 64px
+  left: 8%;
+  top: 19%;
 }
 
 .subheading-letter-space {
@@ -44,7 +40,7 @@
 
 @media (min-width: 1024px) {
   .section-cta {
-    margin-top: 162px;
+    margin-top: 168px;
     padding: 0 64px;
   }
 
@@ -59,7 +55,7 @@
   .icon-absolute {
     position: absolute;
     top: 31%;
-    left: 7%;
+    left: 6%;
   }
 
   .cta-email-input {
@@ -94,7 +90,7 @@
     position: absolute;
     top: 31%;
     left: 5%;
-}
+  }
 
   .input-email {
     padding: 23px 70px;
