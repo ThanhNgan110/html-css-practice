@@ -1,5 +1,5 @@
 .section-testimonials {
-  margin-top: 44px;
+  margin-top: 74px;
   padding: 32px 16px;
 }
 
@@ -7,16 +7,14 @@
   text-align: center;
 }
 
-.carousel {
-  position: relative;
-}
-
 .carousel-testimonials {
+  position: relative;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 64px
 }
 
-.carousel-item {
+.carousel-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -81,16 +79,16 @@
 .left {
   position: absolute;
   left: 0;
-  bottom: -27%;
+  bottom: -20%;
 }
 
 .right {
   position: absolute;
   right: 0;
-  bottom: -27%;
+  bottom: -20%;
 }
 
-@media (min-width: 1024px) {
+@media (min-width:768px) {
   .section-testimonials {
     padding: 0;
     margin: 0;
@@ -104,10 +102,15 @@
   }
 
   .container-testimonial {
-    padding: 64px 64px;
+    padding: 0 64px;
   }
 
-  .carousel-item {
+  .carousel-testimonials {
+    padding: 64px 0;
+    margin-bottom: 0px;
+  }
+
+  .carousel-content {
     padding: 0 156px;
   }
 
@@ -130,17 +133,17 @@
   .left {
     position: absolute;
     left: 0;
-    top: 30%;
+    bottom: 36%;
   }
 
   .right {
     position: absolute;
     right: 0;
-    top: 30%;
+    bottom: 36%;
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .testimonial {
     background-image: url("/src/assets/images/testimonials/carousel.png");
     background-position: center;
@@ -149,19 +152,23 @@
   }
 
   .container-testimonial {
-    padding: 128px 128px 0 128px;
     margin-top: 8px;
+    padding: 24px 128px 0;
   }
 
   .left {
     position: absolute;
+    top: 43%;
     left: 0;
-    top: 37%;
   }
 
   .right {
     position: absolute;
+    top: 43%;
     right: 0;
-    top: 37%;
+  }
+
+  .testimonial-des {
+    max-width: 680px;
   }
 }
