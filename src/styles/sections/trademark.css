@@ -12,21 +12,22 @@
   gap: 27px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width:768px) {
   .section-trademark {
-   padding: 0 64px;
+    padding: 0 64px;
     margin-top: 50px;
   }
 
   .trademark-box {
     flex-direction: row;
+    max-width: 704px;
     align-items: center;
     gap: 32px;
     padding: 64px 0;
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .section-trademark {
     flex-direction: column;
     justify-content: space-between;
@@ -34,6 +35,7 @@
     padding: 0 128px;
     margin-top: 0;
   }
+
   .trademark-box {
     flex-direction: row;
     justify-content: space-between;
