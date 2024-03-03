@@ -10,10 +10,11 @@
 
 .hero-img-block {
   max-width: 396.29px;
-  max-height: 366px;
+  height: 366px;
 }
 
 .hero-img {
+  width: 396px;
   max-width: 100%;
 }
 
@@ -21,6 +22,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 32px;
 }
 
 .heading-primary {
@@ -53,7 +55,6 @@
   display: flex;
   flex-direction: column;
   gap: 24px;
-  max-width: 398px;
   width: 100%;
 }
 
@@ -61,18 +62,13 @@
   fill: var(--color-gallery);
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   html {
     font-size: 112.5%;
   }
 
   .section-hero {
     padding: 64px 64px;
-  }
-
-  .hero-img-box {
-    width: 712px;
-    height: 713px;
   }
 
   .heading-primary {
@@ -88,43 +84,50 @@
   }
 
   .btn-group {
+    max-width: 350px;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 43px;
-    min-width: 398px;
-    width: 100%;
+    gap: 16px;
   }
 
   .hero-img-block {
     text-align: center;
-    max-width: 772px;
-    max-height: 713px;
+  }
+
+  .hero-img {
+    width: 772px;
+    max-width: 100%;
   }
 
   .hero-text-box {
-    margin-top: 3.556rem;
+    margin-top: 64px;
   }
 
   .text-style {
     display: block;
   }
 
-  /* Button media queri*/
   .btn-outline,
   .btn-full {
     font-size: 0.778rem;
-    padding: 16px 29px;
+    padding: 16px 20px;
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1200px) {
   .section-hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 64px 128px;
   }
+
+
+  .wrapper-hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
 
   .heading-primary {
     text-align: unset;
@@ -140,11 +143,22 @@
     order: -1;
   }
 
+  .hero-img {
+    max-width: 100%;
+  }
+
   .hero-description {
     text-align: unset;
     font-size: 1rem;
     line-height: 1.6rem;
     margin-bottom: 2.389rem;
+  }
+
+  .btn-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
   }
 
   .text-style {
