@@ -53,7 +53,7 @@
   color: var(--color-primary);
 }
 
-@media (min-width: 1024px) {
+@media (min-width:768px) {
   .section-travelpoint {
     padding: 0 64px;
   }
@@ -63,7 +63,9 @@
   }
 
   .img-travelpoint {
-    max-width: unset;
+    width: 896px;
+    height: 705px;
+    max-width: 100%;
   }
 
   .statistical-box {
@@ -78,7 +80,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 32px;
-    margin-top: 40px;
+    margin-top: 64px;
   }
 
   .amount {
@@ -92,15 +94,25 @@
   }
 }
 
-@media (min-width: 1400px) {
+
+@media (min-width: 1200px) {
   .section-travelpoint {
     padding: 0 64px;
   }
+
+  .trademark-box {
+    max-width: none;
+  }
+
 
   .wrapper-travelpoint {
     display: flex;
     align-items: flex-start;
     padding: 65px 0;
+  }
+
+  .img-travelpoint {
+    max-width: 100%;
   }
 
   .box-content-travelpoint {
@@ -113,10 +125,13 @@
   }
 
   .card-treatment {
+    margin-top: 64px;
     gap: 32px;
   }
 
   .card-item-treatment {
-    min-width: 218.5px;
+    gap: 32px;
+    padding: 23px;
+    display: flex;
   }
 }

@@ -82,7 +82,7 @@
   color: #19182550;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   html {
     font-size: 112.5%;
   }
@@ -132,7 +132,7 @@
   }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1200px) {
   .section-feature {
     padding: 0 64px;
   }
@@ -140,9 +140,8 @@
   .wrapper-section-feature {
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-between;
     gap: 70px;
-    padding: 64px 0px;
+    padding: 0px;
   }
 
   .box-content-feature {
@@ -156,5 +155,11 @@
   .box-heading {
     text-align: unset;
     max-width: 651px;
+  }
+
+  .img-feature {
+    max-width: 100%;
+    width: 591px;
+    height: 869px;
   }
 }

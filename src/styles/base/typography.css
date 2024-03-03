@@ -1,17 +1,17 @@
 @font-face {
-  font-family: Inter;
+  font-family: 'Inter';
   src: url("../../assets/fonts/inter/Inter-Regular.ttf") format("truetype");
   font-weight: var(--font-weight-regular);
 }
 
 @font-face {
-  font-family: Adamina;
+  font-family: 'Adamina';
   src: url("../../assets/fonts/adamina/Adamina-Regular.ttf") format("truetype");
   font-weight: var(--font-weight-regular);
 }
 
 @font-face {
-  font-family: ABeeZee;
+  font-family: 'ABeeZee';
   src: url("../../assets/fonts/abeezee/ABeeZee-Regular.ttf") format("truetype");
   font-weight: var(--font-weight-regular);
 }
