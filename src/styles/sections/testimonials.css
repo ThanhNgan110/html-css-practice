@@ -88,6 +88,11 @@
   bottom: -20%;
 }
 
+.avatar-account {
+  width: 128px;
+  height: 128px;
+}
+
 @media (min-width:768px) {
   .section-testimonials {
     padding: 0;
