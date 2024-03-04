@@ -132,7 +132,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1025px) {
   .section-destination {
     padding: 64px 128px;
   }
