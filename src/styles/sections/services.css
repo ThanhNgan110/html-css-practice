@@ -85,7 +85,7 @@
 
 @media (min-width: 1025px) {
   .section-services {
-    padding: 0px 0px 0px 128px;
+    padding: 0 128px;
   }
 
   .wrapper-section {
@@ -105,19 +105,16 @@
   }
 
   .card-service {
-    margin: 0px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 21px;
-   
+    margin: 0;
+    overflow: hidden;
   }
 
-  .card-service:hover { 
+  .card-service:hover {
     overflow-x: scroll;
-    &::-webkit-scrollbar:horizontal {
-      height: 8px;
-    }
   }
 
   .card-item-service {
