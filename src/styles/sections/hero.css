@@ -108,14 +108,13 @@
     display: block;
   }
 
-  .btn-outline,
-  .btn-full {
-    font-size: 0.778rem;
-    padding: 16px 20px;
+  .btn-outline, .btn-full {
+    padding: 16px 14px;
+    font-size: .778rem;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1025px) {
   .section-hero {
     padding: 64px 128px;
   }
