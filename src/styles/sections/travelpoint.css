@@ -64,7 +64,7 @@
 
   .img-travelpoint {
     width: 896px;
-    max-width: 100%;
+    max-width: unset;
   }
 
   .statistical-box {
