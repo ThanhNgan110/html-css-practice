@@ -132,7 +132,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1025px) {
   .section-feature {
     padding: 0 64px;
   }
@@ -157,9 +157,13 @@
     max-width: 651px;
   }
 
-  .img-feature {
-    max-width: 100%;
+  .img-feature-box {
     width: 591px;
     height: 869px;
+  }
+
+  .img-feature {
+    max-width: 100%;
+
   }
 }

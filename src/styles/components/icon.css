@@ -19,7 +19,7 @@
 .icon-play {
   width: 24px;
   height: 24px;
-  fill: #5D50C6;
+  fill: var(--background-color-primary);
 }
 
 .icon-arrow-left {

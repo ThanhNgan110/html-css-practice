@@ -64,8 +64,7 @@
 
   .img-travelpoint {
     width: 896px;
-    height: 705px;
-    max-width: 100%;
+    max-width: unset;
   }
 
   .statistical-box {
@@ -95,7 +94,7 @@
 }
 
 
-@media (min-width: 1200px) {
+@media (min-width: 1025px) {
   .section-travelpoint {
     padding: 0 64px;
   }

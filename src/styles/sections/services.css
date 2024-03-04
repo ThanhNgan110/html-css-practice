@@ -83,7 +83,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1025px) {
   .section-services {
     padding: 0px 0px 0px 128px;
   }
