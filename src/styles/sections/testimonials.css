@@ -163,13 +163,11 @@
 
   .left {
     position: absolute;
-    top: 43%;
     left: 0;
   }
 
   .right {
     position: absolute;
-    top: 43%;
     right: 0;
   }
 
