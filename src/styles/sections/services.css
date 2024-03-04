@@ -110,7 +110,14 @@
     flex-direction: row;
     justify-content: center;
     gap: 21px;
+   
+  }
 
+  .card-service:hover { 
+    overflow-x: scroll;
+    &::-webkit-scrollbar:horizontal {
+      height: 8px;
+    }
   }
 
   .card-item-service {
