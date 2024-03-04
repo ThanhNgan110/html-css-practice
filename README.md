@@ -1,6 +1,6 @@
 # HTML-CSS PRACTICE TWO
 
-- 01 February 2024
+
 
 ## OVERVIEW
 
