@@ -74,7 +74,7 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1025px) {
   .section-cta {
     padding: 0 128px;
     margin-top: 134px;
