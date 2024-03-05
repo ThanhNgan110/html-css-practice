@@ -22,16 +22,17 @@
   fill: var(--background-color-primary);
 }
 
-.icon-arrow-left {
-  background-image: url("/src/assets/images/icons/arrow-left.svg");
+.icon-small {
   width: 15.36px;
   height: 15.36px;
 }
 
+.icon-arrow-left {
+  background-image: url("/src/assets/images/icons/arrow-left.svg");
+}
+
 .icon-arrow-right {
   background-image: url("/src/assets/images/icons/arrow-right.svg");
-  width: 15.36px;
-  height: 15.36px;
 }
 
 .icon-star {
@@ -61,15 +62,16 @@
   background-image: url("/src/assets/images/icons/icon-email.svg");
 }
 
-.icon-rate {
+.icon-medium {
   width: 32px;
   height: 32px;
+}
+
+.icon-rate {
   background-image: url("/src/assets/images/icons/icon-rate.svg");
 }
 
 .icon-social {
-  width: 32px;
-  height: 32px;
   fill: var(--background-color-primary);
 }
 
