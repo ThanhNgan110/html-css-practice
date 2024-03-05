@@ -65,20 +65,6 @@
   color: var(--color-orange);
 }
 
-.card-item-destination {
-  border-radius: 32px;
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  box-shadow: var(--box-shadow-light);
-}
-
-.card-image {
-  object-fit: cover;
-  object-position: center;
-  width: 100%;
-}
-
 .border-img {
   border-radius: 42px 42px 0 0;
 }
@@ -107,11 +93,6 @@
     justify-content: center;
     margin-top: 38px;
     gap: 32px;
-  }
-
-  .card-item-destination {
-    display: flex;
-    flex-direction: column;
   }
 
   .price-destination {
