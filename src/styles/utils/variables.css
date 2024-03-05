@@ -1,8 +1,4 @@
 :root {
-  /* font-size: 16px */
-  /* 16px / 16px = 1 = 100% */
-  --font-size-base: 100%;
-
   --color-primary-transparency: #19182580;
   --color-primary: #191825;
   --color-second: #f85e9f;
