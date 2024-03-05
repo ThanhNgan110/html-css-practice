@@ -1,7 +1,3 @@
-.header-container {
-  padding: 32px 16px;
-}
-
 .header-logo {
   display: flex;
   align-items: center;
@@ -13,6 +9,7 @@
   position: relative;
   display: flex;
   justify-content: space-between;
+  padding: 32px 0;
 }
 
 .name-logo {
@@ -43,7 +40,7 @@ input[type=checkbox]:checked~.nav-menu {
 .nav-menu {
   position: absolute;
   right: 0px;
-  top: 42px;
+  top: 77px;
   padding: 15px;
   background-color: var(--background-color-primary);
   flex-direction: column;
@@ -54,10 +51,6 @@ input[type=checkbox]:checked~.nav-menu {
 .nav-auth {
   display: none;
 }
-
-/* .nav-item {
-  margin-right: 64px;
-} */
 
 .nav-link {
   text-decoration: none;
@@ -74,10 +67,6 @@ input[type=checkbox]:checked~.nav-menu {
 @media (min-width: 768px) {
   html {
     font-size: 112.5%;
-  }
-
-  .header-container {
-    padding: 32px 64px;
   }
 
   .nav-auth {
@@ -103,7 +92,7 @@ input[type=checkbox]:checked~.nav-menu {
     left: 0;
     padding: 15px;
     background-color: var(--color-gallery);
-    top: 51px;
+    top: 80px;
     background: var(--background-color-primary);
     border-radius: 10px;
   }
@@ -125,10 +114,6 @@ input[type=checkbox]:checked~.nav-menu {
 }
 
 @media (min-width: 1025px) {
-  .header-container {
-    padding: 32px 128px;
-  }
-
   .navbar {
     display: flex;
     align-items: center;
@@ -172,7 +157,7 @@ input[type=checkbox]:checked~.nav-menu {
 
   .nav-menu {
     display: flex;
-    gap: 39px;
+    gap: 64px;
     order: 0;
   }
 

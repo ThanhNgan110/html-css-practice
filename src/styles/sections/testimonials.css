@@ -1,6 +1,6 @@
-.section-testimonials {
-  margin-top: 74px;
+.section-testimonial {
   padding: 32px 16px;
+  margin-top: 64px;
 }
 
 .text-center {
@@ -94,9 +94,9 @@
 }
 
 @media (min-width:768px) {
-  .section-testimonials {
-    padding: 0;
+  .section-testimonial {
     margin: 0;
+    padding: 0;
   }
 
   .testimonial {
@@ -107,7 +107,7 @@
   }
 
   .container-testimonial {
-    padding: 0 64px;
+    padding: 0;
   }
 
   .carousel-testimonials {
@@ -137,18 +137,18 @@
 
   .left {
     position: absolute;
-    left: 0;
-    bottom: 36%;
+    left: 6%;
+    bottom: 45%;
   }
 
   .right {
     position: absolute;
-    right: 0;
-    bottom: 36%;
+    right: 6%;
+    bottom: 45%;
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1025px) {
   .testimonial {
     background-image: url("/src/assets/images/testimonials/carousel.png");
     background-position: center;
