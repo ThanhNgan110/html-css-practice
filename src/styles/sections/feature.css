@@ -36,15 +36,6 @@
   gap: 8px;
 }
 
-.card-item-feature {
-  padding: 32px;
-  border-radius: 32px;
-}
-
-.card-item-feature:hover {
-  border: var(--border-primary);
-}
-
 .box-icon {
   display: flex;
   justify-content: center;
@@ -120,13 +111,6 @@
     line-height: 1.6rem;
   }
 
-  .card-item-feature {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 32px;
-  }
-
   .box-icon {
     margin-bottom: 0;
   }
@@ -150,10 +134,6 @@
 
   .box-heading {
     text-align: unset;
-  }
-
-  .box-heading {
-    text-align: unset;
     max-width: 651px;
   }
 
@@ -164,6 +144,5 @@
 
   .img-feature {
     max-width: 100%;
-
   }
 }

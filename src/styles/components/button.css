@@ -21,7 +21,7 @@ button {
 
 .btn-light:hover {
   color: var(--color-white);
-  background-color: var(--background-color-primary);
+  background-color: var(--btn-color-primary);
 }
 
 .btn-log-in {
@@ -32,14 +32,14 @@ button {
 
 .btn-log-in:hover {
   border: none;
-  background-color: var(--background-color-primary);
+  background-color: var(--btn-color-primary);
   color: var(--color-white);
   transition: 0.5s;
 }
 
 .btn-sign-up {
   border: none;
-  background-color: var(--background-color-primary);
+  background-color: var(--btn-color-primary);
   font-weight: var(--font-weight-bold);
   color: var(--color-white);
   padding: 16px 32px;
@@ -55,7 +55,7 @@ button {
   text-align: center;
   color: var(--color-white);
   padding: 24px 32px 24px 32px;
-  background-color: var(--background-color-primary);
+  background-color: var(--btn-color-primary);
   font-size: 0.865rem;
   box-shadow: var(--box-shadow-outline);
 }
@@ -92,26 +92,25 @@ button {
   padding: 27px;
 }
 
-.btn-circle-light:hover {
-  background-color: var(--background-color-primary);
-
-}
+/* .btn-circle-light:hover {
+  background-color: var(--btn-color-primary);
+} */
 
 .btn-circle-full {
   border: var(--border-primary);
-  background-color: var(--background-color-primary);
+  background-color: var(--btn-color-primary);
   padding: 27px;
 }
 
-.btn-circle-full:hover {
+/* .btn-circle-full:hover {
   background-color: var(--color-second);
-}
+} */
 
 .btn-form {
   color: var(--color-white);
   padding: 24px 64px;
   border-radius: 16px;
-  background-color: var(--background-color-primary);
+  background-color: var(--btn-color-primary);
   font-size: 0.865rem;
   border: none;
   line-height: 1.05rem;

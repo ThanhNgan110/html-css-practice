@@ -1,19 +1,16 @@
 :root {
-  /* font-size: 16px */
-  /* 16px / 16px = 1 = 100% */
-  --font-size-base: 100%;
-
   --color-primary-transparency: #19182580;
   --color-primary: #191825;
   --color-second: #f85e9f;
   --color-ebony-clay: #222831;
   --color-orange: #ff5722;
   --color-bright-sun: #facd49;
-  --color-white: #ffffff;
-  --color-black: #000000;
-  --color-gallery: #eeeeee;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gallery: #eee;
 
   --background-color-primary: #5d50c6;
+  --btn-color-primary:#5d50c6;
 
   --box-shadow-outline: 0px 0px 0px 0px rgba(0, 0, 0, 0.1),
     0px 5px 11px 0px rgba(0, 0, 0, 0.1), 0px 20px 20px 0px rgba(0, 0, 0, 0.09),

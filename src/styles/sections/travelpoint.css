@@ -1,5 +1,9 @@
 .section-travelpoint {
-  padding: 32px 16px;
+  padding: 0 16px;
+}
+
+.wrapper-travelpoint {
+  padding: 32px 0;
 }
 
 .img-travelpoint {
@@ -29,16 +33,6 @@
   margin-top: 32px;
 }
 
-.card-item-treatment {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
-  border: var(--border-primary);
-  border-radius: 32px;
-  padding: 32px;
-}
-
 .amount {
   font-size: 2.188rem;
   font-weight: var(--font-weight-regular);
@@ -59,7 +53,7 @@
   }
 
   .wrapper-travelpoint {
-    padding: 64px 32px;
+    padding: 64px 0;
   }
 
   .img-travelpoint {
@@ -93,7 +87,6 @@
   }
 }
 
-
 @media (min-width: 1025px) {
   .section-travelpoint {
     padding: 0 64px;
@@ -102,7 +95,6 @@
   .trademark-box {
     max-width: none;
   }
-
 
   .wrapper-travelpoint {
     display: flex;
@@ -126,11 +118,5 @@
   .card-treatment {
     margin-top: 64px;
     gap: 32px;
-  }
-
-  .card-item-treatment {
-    gap: 32px;
-    padding: 23px;
-    display: flex;
   }
 }

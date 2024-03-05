@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+html {
+  /* font-size: 16px */
+  /* 16px /16px = 1 = 100%; */
+  font-size: 100%;
+}
+
 body {
   font-family: Adamina, Inter, ABeeZee;
 }
